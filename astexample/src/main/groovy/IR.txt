@@ -1,0 +1,28 @@
+// Permission Block
+input (switchesoff, capability.switch, type:device)
+input (switcheson, capability.switch, type:device)
+input (lock1, capability.lock, type:device)
+input (newMode, mode, type:user_defined)
+input (waitfor, number, type:user_defined)
+
+//Event/Actions block
+subscribe(app, appTouch)
+subscribe(app, appTouch)
+
+
+public java.lang.Object appTouch(java.lang.Object evt) {
+    log.debug("changeMode, location.mode = $location.mode, newMode = $newMode, location.modes = $location.modes")
+    if ( location .mode != newMode ) {
+        this.setLocationMode(newMode)
+        log.debug("Changed the mode to '$newMode'")
+    } else {
+        log.debug('New mode is the same as the old mode, leaving it be')
+    }
+    log.debug("appTouch: $evt")
+    lock1.lock()
+    switcheson.on()
+    java.lang.Object delay = waitfor != null && waitfor != '' ? waitfor * 1000 : 120000
+    switchesoff.off(['delay': delay ])
+}
+
+
