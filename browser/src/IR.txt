@@ -1,0 +1,19 @@
+// Permission Block
+input (switchesoff, capability.switch, type:device)
+input (switcheson, capability.switch, type:device)
+input (lock1, capability.lock, type:device)
+input (newMode, mode, type:user_defined)
+input (waitfor, number, type:user_defined)
+//Event/Actions block
+subscribe(app, appTouch)
+subscribe(app, appTouch)
+def  appTouch( evt) {
+    if ( location.mode != newMode ) {
+        this.setLocationMode(newMode)
+    } else {
+    }
+    lock1.lock()
+    switcheson.on()
+     delay = waitfor != null && waitfor != '' ? waitfor * 1000 : 120000
+    switchesoff.off(['delay': delay ])
+}

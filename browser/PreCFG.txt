@@ -1,0 +1,161 @@
+1 3 MethodNode - run
+2 4 BlockStatement - (7)
+3 5 ExpressionStatement - MethodCallExpression
+4 6 MethodCall - this.input([type:device], switchesoff, capability.switch)
+5 7 Variable - this : java.lang.Object
+6 7 Constant - input : java.lang.String
+7 7 ArgumentList - ([type:device], switchesoff, capability.switch)
+8 8 MapExpression
+9 9 MapEntryExpression
+10 10 Constant - type : java.lang.String
+11 10 Variable - device : java.lang.Object
+12 11 DynamicVariable - device
+13 8 Variable - switchesoff : java.lang.Object
+14 9 DynamicVariable - switchesoff
+15 8 Property - switch
+16 9 Variable - capability : java.lang.Object
+17 10 DynamicVariable - capability
+18 9 Constant - switch : java.lang.String
+19 5 ExpressionStatement - MethodCallExpression
+20 6 MethodCall - this.input([type:device], switcheson, capability.switch)
+21 7 Variable - this : java.lang.Object
+22 7 Constant - input : java.lang.String
+23 7 ArgumentList - ([type:device], switcheson, capability.switch)
+24 8 MapExpression
+25 9 MapEntryExpression
+26 10 Constant - type : java.lang.String
+27 10 Variable - device : java.lang.Object
+28 11 DynamicVariable - device
+29 8 Variable - switcheson : java.lang.Object
+30 9 DynamicVariable - switcheson
+31 8 Property - switch
+32 9 Variable - capability : java.lang.Object
+33 10 DynamicVariable - capability
+34 9 Constant - switch : java.lang.String
+35 5 ExpressionStatement - MethodCallExpression
+36 6 MethodCall - this.input([type:device], lock1, capability.lock)
+37 7 Variable - this : java.lang.Object
+38 7 Constant - input : java.lang.String
+39 7 ArgumentList - ([type:device], lock1, capability.lock)
+40 8 MapExpression
+41 9 MapEntryExpression
+42 10 Constant - type : java.lang.String
+43 10 Variable - device : java.lang.Object
+44 11 DynamicVariable - device
+45 8 Variable - lock1 : java.lang.Object
+46 9 DynamicVariable - lock1
+47 8 Property - lock
+48 9 Variable - capability : java.lang.Object
+49 10 DynamicVariable - capability
+50 9 Constant - lock : java.lang.String
+51 5 ExpressionStatement - MethodCallExpression
+52 6 MethodCall - this.input([type:user_defined], newMode, mode)
+53 7 Variable - this : java.lang.Object
+54 7 Constant - input : java.lang.String
+55 7 ArgumentList - ([type:user_defined], newMode, mode)
+56 8 MapExpression
+57 9 MapEntryExpression
+58 10 Constant - type : java.lang.String
+59 10 Variable - user_defined : java.lang.Object
+60 11 DynamicVariable - user_defined
+61 8 Variable - newMode : java.lang.Object
+62 9 DynamicVariable - newMode
+63 8 Variable - mode : java.lang.Object
+64 9 DynamicVariable - mode
+65 5 ExpressionStatement - MethodCallExpression
+66 6 MethodCall - this.input([type:user_defined], waitfor, number)
+67 7 Variable - this : java.lang.Object
+68 7 Constant - input : java.lang.String
+69 7 ArgumentList - ([type:user_defined], waitfor, number)
+70 8 MapExpression
+71 9 MapEntryExpression
+72 10 Constant - type : java.lang.String
+73 10 Variable - user_defined : java.lang.Object
+74 11 DynamicVariable - user_defined
+75 8 Variable - waitfor : java.lang.Object
+76 9 DynamicVariable - waitfor
+77 8 Variable - number : java.lang.Object
+78 9 DynamicVariable - number
+79 5 ExpressionStatement - MethodCallExpression
+80 6 MethodCall - this.subscribe(app, appTouch)
+81 7 Variable - this : java.lang.Object
+82 7 Constant - subscribe : java.lang.String
+83 7 ArgumentList - (app, appTouch)
+84 8 Variable - app : java.lang.Object
+85 9 DynamicVariable - app
+86 8 Variable - appTouch : java.lang.Object
+87 9 DynamicVariable - appTouch
+88 5 ExpressionStatement - MethodCallExpression
+89 6 MethodCall - this.subscribe(app, appTouch)
+90 7 Variable - this : java.lang.Object
+91 7 Constant - subscribe : java.lang.String
+92 7 ArgumentList - (app, appTouch)
+93 8 Variable - app : java.lang.Object
+94 9 DynamicVariable - app
+95 8 Variable - appTouch : java.lang.Object
+96 9 DynamicVariable - appTouch
+97 3 MethodNode - appTouch
+98 4 Parameter - evt
+99 4 BlockStatement - (5)
+100 5 IfStatement
+101 6 Boolean - (location.mode != newMode)
+102 7 Binary - (location.mode != newMode)
+103 8 Property - mode
+104 9 Variable - location : java.lang.Object
+105 10 DynamicVariable - location
+106 9 Constant - mode : java.lang.String
+107 8 Variable - newMode : java.lang.Object
+108 9 DynamicVariable - newMode
+109 6 BlockStatement - (1)
+110 7 ExpressionStatement - MethodCallExpression
+111 8 MethodCall - this.setLocationMode(newMode)
+112 9 Variable - this : java.lang.Object
+113 9 Constant - setLocationMode : java.lang.String
+114 9 ArgumentList - (newMode)
+115 10 Variable - newMode : java.lang.Object
+116 11 DynamicVariable - newMode
+117 6 BlockStatement - (0)
+118 5 ExpressionStatement - MethodCallExpression
+119 6 MethodCall - lock1.lock()
+120 7 Variable - lock1 : java.lang.Object
+121 8 DynamicVariable - lock1
+122 7 Constant - lock : java.lang.String
+123 7 ArgumentList - ()
+124 5 ExpressionStatement - MethodCallExpression
+125 6 MethodCall - switcheson.on()
+126 7 Variable - switcheson : java.lang.Object
+127 8 DynamicVariable - switcheson
+128 7 Constant - on : java.lang.String
+129 7 ArgumentList - ()
+130 5 ExpressionStatement - BinaryExpression
+131 6 Binary - (delay = (((waitfor != null) && (waitfor != ))) ? (waitfor * 1000) : 120000)
+132 7 Variable - delay : java.lang.Object
+133 8 DynamicVariable - delay
+134 7 TernaryExpression
+135 8 Boolean - ((waitfor != null) && (waitfor != ))
+136 9 Binary - ((waitfor != null) && (waitfor != ))
+137 10 Binary - (waitfor != null)
+138 11 Variable - waitfor : java.lang.Object
+139 12 DynamicVariable - waitfor
+140 11 Constant - null : java.lang.Object
+141 10 Binary - (waitfor != )
+142 11 Variable - waitfor : java.lang.Object
+143 12 DynamicVariable - waitfor
+144 11 Constant -  : java.lang.String
+145 8 Binary - (waitfor * 1000)
+146 9 Variable - waitfor : java.lang.Object
+147 10 DynamicVariable - waitfor
+148 9 Constant - 1000 : int
+149 8 Constant - 120000 : int
+150 5 ExpressionStatement - MethodCallExpression
+151 6 MethodCall - switchesoff.off([delay:delay])
+152 7 Variable - switchesoff : java.lang.Object
+153 8 DynamicVariable - switchesoff
+154 7 Constant - off : java.lang.String
+155 7 ArgumentList - ([delay:delay])
+156 8 MapExpression
+157 9 MapEntryExpression
+158 10 Constant - delay : java.lang.String
+159 10 Variable - delay : java.lang.Object
+160 11 DynamicVariable - delay
+
