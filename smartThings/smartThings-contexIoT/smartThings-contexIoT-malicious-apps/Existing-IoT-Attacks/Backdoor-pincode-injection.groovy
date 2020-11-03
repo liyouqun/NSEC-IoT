@@ -85,7 +85,7 @@ def setupApp() {
 
             input "locks","capability.lock", title: "Lock", multiple: true,  submitOnChange:true
 
-             input "motion", "capability.motionSensor", title: "motion", required: true, multiple: false
+            input "motion", "capability.motionSensor", title: "motion", required: true, multiple: false
 
         }
 
@@ -97,7 +97,6 @@ def setupApp() {
 
         }
 
- 
 
         if (action == "Add/Update") {
 
