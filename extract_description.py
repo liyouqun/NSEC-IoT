@@ -55,7 +55,7 @@ def create_description_txt_file(target_folder_relative_path):
     script_dir = os.path.dirname(os.path.realpath(__file__))
     abs_target_folder_path = os.path.join(os.sep, script_dir, target_folder_relative_path)
 
-    DEFINITION = re.compile(r' *definition ?\(')
+    DEFINITION = re.compile(r'[ \t]*definition ?\(')
     # END_DEFINITION = re.compile(r'^preferences')
     END_DEFINITION = re.compile(r'^def')
     DESCRIPTION = re.compile(r'^description:')
@@ -90,11 +90,11 @@ def create_description_txt_file(target_folder_relative_path):
 if __name__ == '__main__':
     create_description_txt_file('smartThings\smartThings-SainT\smartThings-SainT-official')
     # create_description_txt_file('smartThings\smartThings-SainT\smartThings-SainT-sensitive-data-leaks-benchmark-apps')
-    create_description_txt_file('smartThings\smartThings-SainT\smartThings-SainT-third-party')
-    # create_description_txt_file('smartThings\smartThings-ProvThings\ProvThings-attacks')
-    # create_description_txt_file('smartThings\smartThings-Soteria\smartthings-Soteria-MalIoT-apps')
-    create_description_txt_file('smartThings\smartThings-SainT\smartThings-Soteria-third-party')
-    # # create_description_txt_file('smartThings\smartThings-contexIoT\smartThings-contexIoT-malicious-apps')
-    create_description_txt_file('smartThings\smartThings-contexIoT\smartThings-contextIoT-official-and-third-party')
+    # create_description_txt_file('smartThings\smartThings-SainT\smartThings-SainT-third-party')
+    # # create_description_txt_file('smartThings\smartThings-ProvThings\ProvThings-attacks')
+    # # create_description_txt_file('smartThings\smartThings-Soteria\smartthings-Soteria-MalIoT-apps')
+    # create_description_txt_file('smartThings\smartThings-SainT\smartThings-Soteria-third-party')
+    # # # create_description_txt_file('smartThings\smartThings-contexIoT\smartThings-contexIoT-malicious-apps')
+    # create_description_txt_file('smartThings\smartThings-contexIoT\smartThings-contextIoT-official-and-third-party')
 
 
