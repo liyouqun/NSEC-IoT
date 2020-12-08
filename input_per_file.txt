@@ -1,0 +1,6405 @@
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/its-too-hot.groovy
+ "temperatureSensor1"
+ "capability.temperatureMeasurement"
+
+
+
+ "temperature1"
+ "number"
+ "Temperature?"
+
+
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "sendPushMessage"
+ "enum"
+ "Send a push notification?"
+
+
+ "phone1"
+ "phone"
+ "Send a Text Message?"
+
+
+ "switch1"
+ "capability.switch"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/good-night.groovy
+ "motionSensors"
+ "capability.motionSensor"
+ "Where?"
+
+
+ "minutes"
+ "number"
+ "Minutes?"
+
+
+ "timeOfDay"
+ "time"
+ "Time?"
+
+
+ "switches"
+ "capability.switch"
+
+
+
+ "newMode"
+ "mode"
+ "Mode?"
+
+
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "sendPushMessage"
+ "enum"
+ "Send a push notification?"
+
+
+ "phoneNumber"
+ "phone"
+ "Send a Text Message?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/smart-energy-service.groovy
+not regular input mode: input(
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/feed-my-pet.groovy
+ "feeder"
+ "device.PetFeederShield"
+ "Where?"
+
+
+ "time1"
+ "time"
+ "When?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/simple-control.groovy
+ "switches"
+ "capability.switch"
+ "Which Switches?"
+
+
+ "locks"
+ "capability.lock"
+ "Which Locks?"
+
+
+ "thermostats"
+ "capability.thermostat"
+ "Which Thermostats?"
+
+
+ "doorControls"
+ "capability.doorControl"
+ "Which Door Controls?"
+
+
+ "colorControls"
+ "capability.colorControl"
+ "Which Color Controllers?"
+
+
+ "musicPlayers"
+ "capability.musicPlayer"
+ "Which Music Players?"
+
+
+ "switchLevels"
+ "capability.switchLevel"
+ "Which Adjustable Switches?"
+
+
+ "selectedAgent"
+ "enum"
+"Select Simple Sync\n(${agentsDiscovered.size() ?: 0} found)"
+
+
+ "switches"
+ "capability.switch"
+ "Which Switches?"
+
+
+ "locks"
+ "capability.lock"
+ "Which Locks?"
+
+
+ "thermostats"
+ "capability.thermostat"
+ "Which Thermostats?"
+
+
+ "doorControls"
+ "capability.doorControl"
+ "Which Door Controls?"
+
+
+ "colorControls"
+ "capability.colorControl"
+ "Which Color Controllers?"
+
+
+ "musicPlayers"
+ "capability.musicPlayer"
+ "Which Music Players?"
+
+
+ "switchLevels"
+ "capability.switchLevel"
+ "Which Adjustable Switches?"
+
+
+ "manualIPAddress"
+ "text"
+ "IP Address"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/beacon-control.groovy
+ "starting"
+ "time"
+ "Starting"
+
+
+ "ending"
+ "time"
+ "Ending"
+
+
+ "beacons"
+ "capability.beacon"
+ "Select your beacon(s)"
+
+
+ "phones"
+ "device.mobilePresence"
+ "Select your phone(s)"
+
+
+ "arrivalPhrase"
+ "enum"
+ "Execute a phrase"
+
+
+ "arrivalOnSwitches"
+ "capability.switch"
+ "Turn on some switches"
+
+
+ "arrivalOffSwitches"
+ "capability.switch"
+ "Turn off some switches"
+
+
+ "arrivalLocks"
+ "capability.lock"
+ "Unlock the door"
+
+
+ "departPhrase"
+ "enum"
+ "Execute a phrase"
+
+
+ "departOnSwitches"
+ "capability.switch"
+ "Turn on some switches"
+
+
+ "departOffSwitches"
+ "capability.switch"
+ "Turn off some switches"
+
+
+ "departLocks"
+ "capability.lock"
+ "Lock the door"
+
+
+ "pushNotification"
+ "bool"
+ "Send a push notification"
+
+
+ "phone"
+ "phone"
+ "Send a text message"
+ "Tap to enter phone number"
+
+ "days"
+ "enum"
+ "Only on certain days of the week"
+
+
+ "modes"
+ "mode"
+ "Only when mode is"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/turn-it-on-when-it-opens.groovy
+ "contact1"
+ "capability.contactSensor"
+ "Where?"
+
+
+ "switches"
+ "capability.switch"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/color-coordinator.groovy
+ "master"
+ "capability.colorControl"
+ "Colored Light"
+
+
+ "slaves"
+ "capability.colorControl"
+ "Colored Lights"
+
+
+ "randomYes"
+ "bool"
+ "When Master Turned On, Randomize Color"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/turn-it-on-for-5-minutes.groovy
+ "contact1"
+ "capability.contactSensor"
+
+
+
+ "switch1"
+ "capability.switch"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/wattvision-manager.groovy
+found NONE
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/weatherbug-home.groovy
+ "thermostatDevice"
+ "capability.thermostat"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/working-from-home.groovy
+ "person"
+ "capability.presenceSensor"
+ "Who?"
+
+
+ "timeOfDay"
+ "time"
+ "What time?"
+
+
+ "wfhPhrase"
+ "enum"
+ "\"
+
+
+ "sendPushMessage"
+ "bool"
+ "Send a push notification?"
+
+
+ "phone"
+ "phone"
+ "Send a Text Message?"
+
+
+ "days"
+ "enum"
+ "Set for specific day(s) of the week"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/smart-alarm.groovy
+not regular input mode: input inputContact
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/medicine-management-contact-sensor.groovy
+ "deviceContactSensor"
+ "capability.contactSensor"
+ "Opened Sensor"
+
+
+ "reminderTime"
+ "time"
+ "Time"
+
+
+ "deviceLight"
+ "capability.colorControl"
+ "Smart light"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/when-its-going-to-rain.groovy
+ "zipcode"
+ "text"
+ "Zipcode?"
+
+
+ "time"
+ "time"
+ "When?"
+
+
+ "sensors"
+ "capability.contactSensor"
+
+
+
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "phone"
+ "phone"
+ "Phone number?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/bose-soundtouch-connect.groovy
+ "selecteddevice"
+ "enum"
+"Select ${getDeviceName()} (${numFound} found)"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/severe-weather-alert.groovy
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "phone1"
+ "phone"
+ "Phone Number 1"
+
+
+ "phone2"
+ "phone"
+ "Phone Number 2"
+
+
+ "phone3"
+ "phone"
+ "Phone Number 3"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/unlock-it-when-i-arrive.groovy
+ "presence1"
+ "capability.presenceSensor"
+ "Who?"
+
+
+ "lock1"
+ "capability.lock"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/lighting-director.groovy
+not regular input mode: input inputScenarioNameA
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/curling-iron.groovy
+ "motionSensors"
+ "capability.motionSensor"
+ "Motion here"
+
+
+ "presenceSensors"
+ "capability.presenceSensor"
+ "And (optionally) these sensors being present"
+
+
+ "outlets"
+ "capability.switch"
+ "Which?"
+
+
+ "minutes"
+ "number"
+ "Minutes?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/smartweather-station-controller.groovy
+ "weatherDevices"
+ "device.smartweatherStationTile"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/forgiving-security.groovy
+ "contacts"
+ "capability.contactSensor"
+ "Contact Sensors"
+
+
+ "motions"
+ "capability.motionSensor"
+ "Motion Sensors"
+
+
+ "alarms"
+ "capability.alarm"
+ "Which Alarms?"
+
+
+ "lights"
+ "capability.switch"
+ "Turn on which lights?"
+
+
+ "presenceDelay"
+ "number"
+ "Seconds (defaults to 15s)"
+
+
+ "sendPushMessage"
+ "enum"
+ "Send a push notification?"
+
+
+ "phone"
+ "phone"
+ "Send a Text Message?"
+
+
+ "messageDelay"
+ "number"
+ "Minutes (default to every message)"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/mail-arrived.groovy
+ "accelerationSensor"
+ "capability.accelerationSensor"
+ "Where?"
+
+
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "pushNotification"
+ "bool"
+ "Push notification"
+
+
+ "phone1"
+ "phone"
+ "Phone number"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/device-tile-controller.groovy
+ "genericDeviceTile"
+ "bool"
+ "generic"
+ "A device that showcases the various use of generic multi-attribute-tiles."
+
+ "lightingDeviceTile"
+ "bool"
+ "lighting"
+ "A device that showcases the various use of lighting multi-attribute-tiles."
+
+ "thermostatDeviceTile"
+ "bool"
+ "thermostat"
+ "A device that showcases the various use of thermostat multi-attribute-tiles."
+
+ "mediaPlayerDeviceTile"
+ "bool"
+ "media player"
+ "A device that showcases the various use of mediaPlayer multi-attribute-tiles."
+
+ "videoPlayerDeviceTile"
+ "bool"
+ "video player"
+ "A device that showcases the various use of videoPlayer multi-attribute-tiles."
+
+ "standardDeviceTile"
+ "bool"
+ "standard device tiles"
+ "A device that showcases the various use of standard device tiles."
+
+ "valueDeviceTile"
+ "bool"
+ "value device tiles"
+ "A device that showcases the various use of value device tiles."
+
+ "presenceDeviceTile"
+ "bool"
+ "presence device tiles"
+ "A device that showcases the various use of color control device tile."
+
+ "carouselDeviceTile"
+ "bool"
+ "image carousel"
+ "A device that showcases the various use of carousel device tile."
+
+ "sliderDeviceTile"
+ "bool"
+ "slider"
+ "A device that showcases the various use of slider device tile."
+
+ "colorWheelDeviceTile"
+ "bool"
+ "color wheel"
+ "A device that showcases the various use of color wheel device tile."
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/notify-me-with-hue.groovy
+ "hues"
+ "capability.colorControl"
+ "Which Hue Bulbs?"
+
+
+ "motion"
+ "capability.motionSensor"
+ "Motion Here"
+
+
+ "contact"
+ "capability.contactSensor"
+ "Contact Opens"
+
+
+ "contactClosed"
+ "capability.contactSensor"
+ "Contact Closes"
+
+
+ "acceleration"
+ "capability.accelerationSensor"
+ "Acceleration Detected"
+
+
+ "mySwitch"
+ "capability.switch"
+ "Switch Turned On"
+
+
+ "mySwitchOff"
+ "capability.switch"
+ "Switch Turned Off"
+
+
+ "arrivalPresence"
+ "capability.presenceSensor"
+ "Arrival Of"
+
+
+ "departurePresence"
+ "capability.presenceSensor"
+ "Departure Of"
+
+
+ "smoke"
+ "capability.smokeDetector"
+ "Smoke Detected"
+
+
+ "water"
+ "capability.waterSensor"
+ "Water Sensor Wet"
+
+
+ "button1"
+ "capability.button"
+ "Button Press"
+
+
+ "triggerModes"
+ "mode"
+ "System Changes Mode"
+ "Select mode(s)"
+
+ "timeOfDay"
+ "time"
+ "At a Scheduled Time"
+
+
+ "color"
+ "enum"
+ "Hue Color?"
+
+
+ "lightLevel"
+ "enum"
+ "Light Level?"
+
+
+ "duration"
+ "number"
+ "Duration Seconds?"
+
+
+ "frequency"
+ "decimal"
+ "Minutes"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/speaker-weather-forecast.groovy
+ "starting"
+ "time"
+ "Starting"
+
+
+ "ending"
+ "time"
+ "Ending"
+
+
+("forecastOptions"
+ "enum"
+ "Weather report options"
+ "Select one or more"
+
+ "sonos"
+ "capability.musicPlayer"
+ "On this Speaker player"
+
+
+ "resumePlaying"
+ "bool"
+ "Resume currently playing music after weather report finishes"
+
+
+ "zipCode"
+ "text"
+ "Zip Code"
+
+
+ "volume"
+ "number"
+ "Temporarily change volume"
+ "0-100%"
+
+ "frequency"
+ "decimal"
+ "Minimum time between actions (defaults to every event)"
+ "Minutes"
+
+ "days"
+ "enum"
+ "Only on certain days of the week"
+
+
+ "modes"
+ "mode"
+ "Only when mode is"
+
+
+ "oncePerDay"
+ "bool"
+ "Only once per day"
+
+
+ "song"
+,"enum"
+"Play this track"
+
+
+not regular input mode: input(options, name, capability)
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/switch-changes-mode.groovy
+ "controlSwitch"
+ "capability.switch"
+ "Switch"
+
+
+ "onMode"
+ "mode"
+ "Switch is on"
+
+
+ "offMode"
+ "mode"
+ "Switch is off"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/camera-power-scheduler.groovy
+ "switch1"
+ "capability.switch"
+
+
+
+ "startTime"
+ "time"
+ "Start Time"
+
+
+ "endTime"
+ "time"
+ "End Time"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/dry-the-wetspot.groovy
+ "sensor"
+ "capability.waterSensor"
+ "Where?"
+
+
+ "pump"
+ "capability.switch"
+ "Which?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/weather-underground-pws-connect.groovy
+ "temp"
+ "capability.temperatureMeasurement"
+ "Temperature"
+
+
+ "humidity"
+ "capability.relativeHumidityMeasurement"
+ "Humidity"
+
+
+ "weatherID"
+ "text"
+ "Weather Station ID"
+
+
+ "password"
+ "password"
+ "Weather Underground password"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/smart-security.groovy
+ "intrusionMotions"
+ "capability.motionSensor"
+ "Motion Sensors"
+
+
+ "intrusionContacts"
+ "capability.contactSensor"
+ "Contact Sensors"
+
+
+ "residentMotions"
+ "capability.motionSensor"
+ "Motion Sensors"
+
+
+ "alarms"
+ "capability.alarm"
+ "Which Alarm(s)"
+
+
+ "silent"
+ "enum"
+ "Silent alarm only (Yes/No)"
+
+
+ "seconds"
+ "number"
+ "Delay in seconds before siren sounds"
+
+
+ "lights"
+ "capability.switch"
+ "Flash these lights (optional)"
+
+
+ "newMode"
+ "mode"
+ "Change to this mode (optional)"
+
+
+ "textMessage"
+ "text"
+ "Send this message"
+
+
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "phone"
+ "phone"
+ "To this phone"
+
+
+ "residentsQuietThreshold"
+ "number"
+ "Time in minutes"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/spruce-scheduler.groovy
+ 'switches'
+ 'capability.switch'
+ 'Spruce Irrigation Controller:'
+ 'Select a Spruce controller'
+
+ 'enable'
+ 'bool'
+ 'Enable watering:'
+
+
+ 'enableManual'
+ 'bool'
+ 'Enable this schedule for manual start, only 1 schedule should be enabled for manual start at a time!'
+
+
+ 'startTime'
+ 'time'
+ 'Watering start time'
+
+
+ 'days'
+ 'enum'
+ 'Water only on these days...'
+
+
+ 'notify'
+ 'enum'
+ 'Select what push notifications to receive.'
+
+
+('recipients'
+ 'contact'
+ 'Send push notifications to'
+
+
+ 'logAll'
+ 'bool'
+ 'Log all notices to Hello Home?'
+
+
+ 'isRain'
+ 'bool'
+ 'Enable Rain check:'
+
+
+ 'rainDelay'
+ 'decimal'
+ 'inches of rain that will delay watering, default: 0.2'
+
+
+ 'isSeason'
+ 'bool'
+ 'Enable Seasonal Weather Adjustment:'
+
+
+ 'zipcode'
+ 'text'
+ 'Zipcode or WeatherUnderground station id. Default value is current Zip code'
+
+
+ 'nearestPWS'
+ 'bool'
+ 'Use nearest PWS'
+
+
+ 'pumpDelay'
+ 'number'
+ 'Set a delay in seconds?'
+
+
+ 'contacts'
+ 'capability.contactSensor'
+ 'Select water delay contact sensors'
+
+
+ 'contactStop'
+ 'enum'
+ 'Stop watering when sensors are...'
+
+
+ 'toggles'
+ 'capability.switch'
+ 'Select water delay switches'
+
+
+ 'toggleStop'
+ 'enum'
+ 'Stop watering when switches are...'
+
+
+ 'contactDelay'
+ 'number'
+ 'Restart watering how many seconds after all contacts and switches '
+
+
+ 'sync'
+ 'capability.switch'
+ 'Select Master Controller'
+ 'Only use this setting with multiple controllers'
+
+ 'zoneNumberEnum'
+ 'enum'
+ 'Select zones to configure'
+
+
+ 'gain'
+ 'number'
+ 'Increase or decrease all water times by this %, enter a negative or positive value, Default: 0'
+
+
+ 'learn'
+ 'bool'
+ 'Enable Adaptive Moisture Control (with moisture sensors)'
+
+
+ "name${state.app}"
+ 'text'
+ 'Zone name?'
+
+
+ "zone${state.app}"
+ 'enum'
+ 'Sprinkler Type'
+
+
+ "plant${state.app}"
+ 'enum'
+ 'Landscape'
+
+
+ "option${state.app}"
+ 'enum'
+ 'Options'
+
+
+ "sensor${state.app}"
+ 'capability.relativeHumidityMeasurement'
+ 'Select moisture sensor?'
+
+
+ "sensorSp${state.app}"
+ 'number'
+ "Minimum moisture sensor target value, Setpoint: ${getDrySp(state.app)}"
+
+
+ "minWeek${state.app}"
+ 'number'
+ 'Minimum water time per week.\nDefault: 0 = autoadjust'
+ 'minutes per week'
+
+ "perDay${state.app}"
+ 'number'
+ 'Guideline value for time per day, this divides minutes per week into watering days. Default: 20'
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/notify-me-when-it-opens.groovy
+ "contact1"
+ "capability.contactSensor"
+ "Where?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/shabbat-and-holiday-modes.groovy
+ "startMode"
+ "mode"
+ "Mode?"
+
+
+ "endMode"
+ "mode"
+ "Mode?"
+
+
+ "havdalahOffset"
+ "number"
+ "Minutes After Sundown"
+
+
+ "zipcode"
+ "text"
+ "ZipCode"
+
+
+ "sendPushMessage"
+ "enum"
+ "Send a push notification?"
+
+
+ "phone"
+ "phone"
+ "Send a Text Message?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/turn-it-on-when-im-here.groovy
+ "presence1"
+ "capability.presenceSensor"
+ "Who?"
+
+
+ "switch1"
+ "capability.switch"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/gidjit-hub.groovy
+ "switches"
+ "capability.switch"
+ "Control/Monitor your switches"
+
+
+ "thermostats"
+ "capability.thermostat"
+ "Control/Monitor your thermostats"
+
+
+ "windowShades"
+ "capability.windowShade"
+ "Control/Monitor your window shades"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/smart-humidifier.groovy
+ "humiditySensor1"
+ "capability.relativeHumidityMeasurement"
+
+
+
+ "humidityHigh"
+ "number"
+ "Percentage ?"
+
+
+ "humidityLow"
+ "number"
+ "Percentage ?"
+
+
+ "switch1"
+ "capability.switch"
+
+
+
+ "sendPushMessage"
+ "enum"
+ "Send a push notification?"
+
+
+ "phone1"
+ "phone"
+ "Send a Text Message?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/light-follows-me.groovy
+ "motion1"
+ "capability.motionSensor"
+ "Where?"
+
+
+ "minutes1"
+ "number"
+ "Minutes?"
+
+
+ "switches"
+ "capability.switch"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/whole-house-fan.groovy
+ "outTemp"
+ "capability.temperatureMeasurement"
+ "Outdoor Thermometer"
+
+
+ "inTemp"
+ "capability.temperatureMeasurement"
+ "Indoor Thermometer"
+
+
+ "minTemp"
+ "number"
+ "Minimum Indoor Temperature"
+
+
+ "fans"
+ "capability.switch"
+ "Vent Fan"
+
+
+ "thermostat"
+ "capability.thermostat"
+ "Thermostat"
+
+
+ "checkContacts"
+ "enum"
+ "Check windows/doors"
+
+
+ "contacts"
+ "capability.contactSensor"
+ "Windows/Doors"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/smartblock-chat-sender.groovy
+ "chatsEnabled"
+ "bool"
+ "Enable This Notification?"
+
+
+ "modes"
+ "mode"
+ "Notify SmartBlock users when the mode changes to:"
+ "(optional)"
+
+ "username"
+ "string"
+ "Only send to this username"
+ "(optional)"
+
+ "customMessage"
+ "string"
+ "Custom message?"
+ "(optional)"
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/let-there-be-dark.groovy
+ "contact1"
+ "capability.contactSensor"
+ "Where?"
+
+
+ "switch1"
+ "capability.switch"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/speaker-control.groovy
+ "starting"
+ "time"
+ "Starting"
+
+
+ "ending"
+ "time"
+ "Ending"
+
+
+ "actionType"
+ "enum"
+ "Action?"
+
+
+ "sonos"
+ "capability.musicPlayer"
+ "Speaker music player"
+
+
+ "volume"
+ "number"
+ "Set the volume volume"
+ "0-100%"
+
+ "frequency"
+ "decimal"
+ "Minimum time between actions (defaults to every event)"
+ "Minutes"
+
+ "days"
+ "enum"
+ "Only on certain days of the week"
+
+
+ "modes"
+ "mode"
+ "Only when mode is"
+
+
+ "oncePerDay"
+ "bool"
+ "Only once per day"
+
+
+not regular input mode: input(options, name, capability)
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/talking-alarm-clock.groovy
+ "A_alarmOn"
+ "bool"
+ "Enable this alarm?"
+
+
+ "B_alarmOn"
+ "bool"
+ "Enable this alarm?"
+
+
+ "C_alarmOn"
+ "bool"
+ "Enable this alarm?"
+
+
+ "D_alarmOn"
+ "bool"
+ "Enable this alarm?"
+
+
+ "alarmSummary"
+ "bool"
+ "Enable Alarm Summary"
+
+
+ "zipCode"
+ "text"
+ "Zip Code"
+
+
+ "summarySonos"
+ "capability.musicPlayer"
+ "Choose a Sonos speaker"
+
+
+ "summaryVolume"
+ "number"
+ "Set the summary volume"
+ "0-100%"
+
+ "summaryDisabled"
+ "bool"
+ "Include disabled or unconfigured alarms in summary"
+
+
+ "summaryMode"
+ "mode"
+ "Speak summary only during the following modes..."
+
+
+ "ScenarioNameA"
+ "text"
+ "Scenario Name"
+
+
+ "A_sonos"
+ "capability.musicPlayer"
+ "Choose a Sonos speaker"
+
+
+ "A_volume"
+ "number"
+ "Alarm volume"
+ "0-100%"
+
+ "A_timeStart"
+ "time"
+ "Time to trigger alarm"
+
+
+ "A_day"
+ "enum"
+ "Alarm on certain days of the week..."
+
+
+ "A_mode"
+ "mode"
+ "Alarm only during the following modes..."
+
+
+ "A_alarmType"
+ "enum"
+ "Select a primary alarm type..."
+
+
+ "A_secondAlarm"
+ "enum"
+ "Select a second alarm after the first is completed"
+
+
+ "A_secondAlarmMusic"
+ "bool"
+ "Play a track after voice greeting"
+
+
+ "A_soundAlarm"
+ "enum"
+ "Play this sound..."
+
+
+ "A_soundLength"
+ "number"
+ "Maximum time to play sound (empty=use sound default)"
+ "1-20"
+
+ "A_wakeMsg"
+ "text"
+ "Wake voice message"
+
+
+ "A_musicTrack"
+ "enum"
+ "Play this track/internet radio station"
+
+
+ "A_switches"
+ "capability.switch"
+ "Control the following switches..."
+
+
+ "A_confirmSwitches"
+ "bool"
+ "Confirm switches/thermostats status in voice message"
+
+
+ "A_phrase"
+ "enum"
+ "Alarm triggers the following phrase"
+
+
+ "A_confirmPhrase"
+ "bool"
+ "Confirm Hello, Home phrase in voice message"
+
+
+ "A_triggerMode"
+ "mode"
+ "Alarm triggers the following mode"
+
+
+ "A_confirmMode"
+ "bool"
+ "Confirm mode in voice message"
+
+
+ "A_dimmers"
+ "capability.switchLevel"
+ "Dim the following..."
+
+
+ "A_level"
+ "enum"
+ "Set dimmers to this level"
+
+
+ "A_thermostats"
+ "capability.thermostat"
+ "Thermostat to control..."
+
+
+ "A_temperatureH"
+ "number"
+ "Heating setpoint"
+ "Temperature when in heat mode"
+
+ "A_temperatureC"
+ "number"
+ "Cooling setpoint"
+ "Temperature when in cool mode"
+
+ "A_includeTemp"
+ "bool"
+ "Speak current temperature (from local forecast)"
+
+
+ "A_localTemp"
+ "capability.temperatureMeasurement"
+ "Speak local temperature (from device)"
+
+
+ "A_humidity"
+ "capability.relativeHumidityMeasurement"
+ "Speak local humidity (from device)"
+
+
+ "A_weatherReport"
+ "bool"
+ "Speak today's weather forecast"
+
+
+ "A_includeSunrise"
+ "bool"
+ "Speak today's sunrise"
+
+
+ "A_includeSunset"
+ "bool"
+ "Speak today's sunset"
+
+
+ "ScenarioNameB"
+ "text"
+ "Scenario Name"
+
+
+ "B_sonos"
+ "capability.musicPlayer"
+ "Choose a Sonos speaker"
+
+
+ "B_volume"
+ "number"
+ "Alarm volume"
+ "0-100%"
+
+ "B_timeStart"
+ "time"
+ "Time to trigger alarm"
+
+
+ "B_day"
+ "enum"
+ "Alarm on certain days of the week..."
+
+
+ "B_mode"
+ "mode"
+ "Alarm only during the following modes..."
+
+
+ "B_alarmType"
+ "enum"
+ "Select a primary alarm type..."
+
+
+ "B_secondAlarm"
+ "enum"
+ "Select a second alarm after the first is completed"
+
+
+ "B_secondAlarmMusic"
+ "bool"
+ "Play a track after voice greeting"
+
+
+ "B_soundAlarm"
+ "enum"
+ "Play this sound..."
+
+
+ "B_soundLength"
+ "number"
+ "Maximum time to play sound (empty=use sound default)"
+ "1-20"
+
+ "B_wakeMsg"
+ "text"
+ "Wake voice message"
+
+
+ "B_musicTrack"
+ "enum"
+ "Play this track/internet radio station"
+
+
+ "B_switches"
+ "capability.switch"
+ "Control the following switches..."
+
+
+ "B_confirmSwitches"
+ "bool"
+ "Confirm switches/thermostats status in voice message"
+
+
+ "B_phrase"
+ "enum"
+ "Alarm triggers the following phrase"
+
+
+ "B_confirmPhrase"
+ "bool"
+ "Confirm Hello, Home phrase in voice message"
+
+
+ "B_triggerMode"
+ "mode"
+ "Alarm triggers the following mode"
+
+
+ "B_confirmMode"
+ "bool"
+ "Confirm mode in voice message"
+
+
+ "B_dimmers"
+ "capability.switchLevel"
+ "Dim the following..."
+
+
+ "B_level"
+ "enum"
+ "Set dimmers to this level"
+
+
+ "B_thermostats"
+ "capability.thermostat"
+ "Thermostat to control..."
+
+
+ "B_temperatureH"
+ "number"
+ "Heating setpoint"
+ "Temperature when in heat mode"
+
+ "B_temperatureC"
+ "number"
+ "Cooling setpoint"
+ "Temperature when in cool mode"
+
+ "B_includeTemp"
+ "bool"
+ "Speak current temperature (from local forecast)"
+
+
+ "B_localTemp"
+ "capability.temperatureMeasurement"
+ "Speak local temperature (from device)"
+
+
+ "B_humidity"
+ "capability.relativeHumidityMeasurement"
+ "Speak local humidity (from device)"
+
+
+ "B_weatherReport"
+ "bool"
+ "Speak today's weather forecast"
+
+
+ "B_includeSunrise"
+ "bool"
+ "Speak today's sunrise"
+
+
+ "B_includeSunset"
+ "bool"
+ "Speak today's sunset"
+
+
+ "ScenarioNameC"
+ "text"
+ "Scenario Name"
+
+
+ "C_sonos"
+ "capability.musicPlayer"
+ "Choose a Sonos speaker"
+
+
+ "C_volume"
+ "number"
+ "Alarm volume"
+ "0-100%"
+
+ "C_timeStart"
+ "time"
+ "Time to trigger alarm"
+
+
+ "C_day"
+ "enum"
+ "Alarm on certain days of the week..."
+
+
+ "C_mode"
+ "mode"
+ "Alarm only during the following modes..."
+
+
+ "C_alarmType"
+ "enum"
+ "Select a primary alarm type..."
+
+
+ "C_secondAlarm"
+ "enum"
+ "Select a second alarm after the first is completed"
+
+
+ "C_secondAlarmMusic"
+ "bool"
+ "Play a track after voice greeting"
+
+
+ "C_soundAlarm"
+ "enum"
+ "Play this sound..."
+
+
+ "C_soundLength"
+ "number"
+ "Maximum time to play sound (empty=use sound default)"
+ "1-20"
+
+ "C_wakeMsg"
+ "text"
+ "Wake voice message"
+
+
+ "C_musicTrack"
+ "enum"
+ "Play this track/internet radio station"
+
+
+ "C_switches"
+ "capability.switch"
+ "Control the following switches..."
+
+
+ "C_confirmSwitches"
+ "bool"
+ "Confirm switches/thermostats status in voice message"
+
+
+ "C_phrase"
+ "enum"
+ "Alarm triggers the following phrase"
+
+
+ "C_confirmPhrase"
+ "bool"
+ "Confirm Hello, Home phrase in voice message"
+
+
+ "C_triggerMode"
+ "mode"
+ "Alarm triggers the following mode"
+
+
+ "C_confirmMode"
+ "bool"
+ "Confirm mode in voice message"
+
+
+ "C_dimmers"
+ "capability.switchLevel"
+ "Dim the following..."
+
+
+ "C_level"
+ "enum"
+ "Set dimmers to this level"
+
+
+ "C_thermostats"
+ "capability.thermostat"
+ "Thermostat to control..."
+
+
+ "C_temperatureH"
+ "number"
+ "Heating setpoint"
+ "Temperature when in heat mode"
+
+ "C_temperatureC"
+ "number"
+ "Cooling setpoint"
+ "Temperature when in cool mode"
+
+ "C_includeTemp"
+ "bool"
+ "Speak current temperature (from local forecast)"
+
+
+ "C_localTemp"
+ "capability.temperatureMeasurement"
+ "Speak local temperature (from device)"
+
+
+ "C_humidity"
+ "capability.relativeHumidityMeasurement"
+ "Speak local humidity (from device)"
+
+
+ "C_weatherReport"
+ "bool"
+ "Speak today's weather forecast"
+
+
+ "C_includeSunrise"
+ "bool"
+ "Speak today's sunrise"
+
+
+ "C_includeSunset"
+ "bool"
+ "Speak today's sunset"
+
+
+ "ScenarioNameD"
+ "text"
+ "Scenario Name"
+
+
+ "D_sonos"
+ "capability.musicPlayer"
+ "Choose a Sonos speaker"
+
+
+ "D_volume"
+ "number"
+ "Alarm volume"
+ "0-100%"
+
+ "D_timeStart"
+ "time"
+ "Time to trigger alarm"
+
+
+ "D_day"
+ "enum"
+ "Alarm on certain days of the week..."
+
+
+ "D_mode"
+ "mode"
+ "Alarm only during the following modes..."
+
+
+ "D_alarmType"
+ "enum"
+ "Select a primary alarm type..."
+
+
+ "D_secondAlarm"
+ "enum"
+ "Select a second alarm after the first is completed"
+
+
+ "D_secondAlarmMusic"
+ "bool"
+ "Play a track after voice greeting"
+
+
+ "D_soundAlarm"
+ "enum"
+ "Play this sound..."
+
+
+ "D_soundLength"
+ "number"
+ "Maximum time to play sound (empty=use sound default)"
+ "1-20"
+
+ "D_wakeMsg"
+ "text"
+ "Wake voice message"
+
+
+ "D_musicTrack"
+ "enum"
+ "Play this track/internet radio station"
+
+
+ "D_switches"
+ "capability.switch"
+ "Control the following switches..."
+
+
+ "D_confirmSwitches"
+ "bool"
+ "Confirm switches/thermostats status in voice message"
+
+
+ "D_phrase"
+ "enum"
+ "Alarm triggers the following phrase"
+
+
+ "D_confirmPhrase"
+ "bool"
+ "Confirm Hello, Home phrase in voice message"
+
+
+ "D_triggerMode"
+ "mode"
+ "Alarm triggers the following mode"
+
+
+ "D_confirmMode"
+ "bool"
+ "Confirm mode in voice message"
+
+
+ "D_dimmers"
+ "capability.switchLevel"
+ "Dim the following..."
+
+
+ "D_level"
+ "enum"
+ "Set dimmers to this level"
+
+
+ "D_thermostats"
+ "capability.thermostat"
+ "Thermostat to control..."
+
+
+ "D_temperatureH"
+ "number"
+ "Heating setpoint"
+ "Temperature when in heat mode"
+
+ "D_temperatureC"
+ "number"
+ "Cooling setpoint"
+ "Temperature when in cool mode"
+
+ "D_includeTemp"
+ "bool"
+ "Speak current temperature (from local forecast)"
+
+
+ "D_localTemp"
+ "capability.temperatureMeasurement"
+ "Speak local temperature (from device)"
+
+
+ "D_humidity"
+ "capability.relativeHumidityMeasurement"
+ "Speak local humidity (from device)"
+
+
+ "D_weatherReport"
+ "bool"
+ "Speak today's weather forecast"
+
+
+ "D_includeSunrise"
+ "bool"
+ "Speak today's sunrise"
+
+
+ "D_includeSunset"
+ "bool"
+ "Speak today's sunset"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/the-flasher.groovy
+ "motion"
+ "capability.motionSensor"
+ "Motion Sensor?"
+
+
+ "contact"
+ "capability.contactSensor"
+ "Contact Sensor?"
+
+
+ "acceleration"
+ "capability.accelerationSensor"
+ "Acceleration Sensor?"
+
+
+ "mySwitch"
+ "capability.switch"
+ "Switch?"
+
+
+ "myPresence"
+ "capability.presenceSensor"
+ "Presence Sensor?"
+
+
+ "switches"
+ "capability.switch"
+ "These lights"
+
+
+ "numFlashes"
+ "number"
+ "This number of times (default 3)"
+
+
+ "onFor"
+ "number"
+ "On for (default 1000)"
+
+
+ "offFor"
+ "number"
+ "Off for (default 1000)"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/greetings-earthling.groovy
+ "people"
+ "capability.presenceSensor"
+
+
+
+ "newMode"
+ "mode"
+ "Mode?"
+
+
+ "falseAlarmThreshold"
+ "decimal"
+ "Number of minutes"
+
+
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "sendPushMessage"
+ "enum"
+ "Send a push notification?"
+
+
+ "phone"
+ "phone"
+ "Send a Text Message?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/gideon-smart-home.groovy
+ "contact"
+ "capability.contactSensor"
+
+
+
+ "switchlevels"
+ "capability.switchLevel"
+
+
+
+ "thermostats"
+ "capability.thermostat"
+
+
+
+ "colors"
+ "capability.colorControl"
+
+
+
+ "kelvin"
+ "capability.colorTemperature"
+
+
+
+ "switches"
+ "capability.switch"
+
+
+
+ "smoke_alarms"
+ "capability.smokeDetector"
+
+
+
+ "shades"
+ "capability.windowShade"
+
+
+
+ "garage"
+ "capability.garageDoorControl"
+
+
+
+ "water_sensors"
+ "capability.waterSensor"
+
+
+
+ "motions"
+ "capability.motionSensor"
+
+
+
+ "presence_sensors"
+ "capability.presenceSensor"
+
+
+
+ "outlets"
+ "capability.outlet"
+
+
+
+ "meters"
+ "capability.powerMeter"
+
+
+
+ "locks"
+ "capability.lock"
+
+
+
+ "temperature_sensors"
+ "capability.temperatureMeasurement"
+
+
+
+ "batteries"
+ "capability.battery"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/speaker-mood-music.groovy
+ "starting"
+ "time"
+ "Starting"
+
+
+ "ending"
+ "time"
+ "Ending"
+
+
+ "sonos"
+ "capability.musicPlayer"
+ "On this Speaker player"
+
+
+ "volume"
+ "number"
+ "Set the volume"
+ "0-100%"
+
+ "frequency"
+ "decimal"
+ "Minimum time between actions (defaults to every event)"
+ "Minutes"
+
+ "days"
+ "enum"
+ "Only on certain days of the week"
+
+
+ "modes"
+ "mode"
+ "Only when mode is"
+
+
+ "oncePerDay"
+ "bool"
+ "Only once per day"
+
+
+ "song"
+,"enum"
+"Play this track"
+
+
+not regular input mode: input(options, name, capability)
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/humidity-alert.groovy
+ "humiditySensor1"
+ "capability.relativeHumidityMeasurement"
+
+
+
+ "humidity1"
+ "number"
+ "Percentage ?"
+
+
+ "humidity2"
+ "number"
+ "Percentage ?"
+
+
+ "sendPushMessage"
+ "enum"
+ "Send a push notification?"
+
+
+ "phone1"
+ "phone"
+ "Send a Text Message?"
+
+
+ "switch1"
+ "capability.switch"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/speaker-notify-with-sound.groovy
+ "starting"
+ "time"
+ "Starting"
+
+
+ "ending"
+ "time"
+ "Ending"
+
+
+ "actionType"
+ "enum"
+ "Action?"
+
+
+ "message"
+,"text"
+"Play this message"
+
+
+ "sonos"
+ "capability.musicPlayer"
+ "On this Speaker player"
+
+
+ "resumePlaying"
+ "bool"
+ "Resume currently playing music after notification"
+
+
+ "volume"
+ "number"
+ "Temporarily change volume"
+ "0-100%"
+
+ "frequency"
+ "decimal"
+ "Minimum time between actions (defaults to every event)"
+ "Minutes"
+
+ "days"
+ "enum"
+ "Only on certain days of the week"
+
+
+ "modes"
+ "mode"
+ "Only when mode is"
+
+
+ "oncePerDay"
+ "bool"
+ "Only once per day"
+
+
+ "song"
+,"enum"
+"Play this track"
+
+
+not regular input mode: input(options, name, capability)
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/opent2t-smartapp-test.groovy
+ "contactSensors"
+ "capability.contactSensor"
+ "Which Contact Sensors"
+
+
+ "garageDoors"
+ "capability.garageDoorControl"
+ "Which Garage Doors?"
+
+
+ "locks"
+ "capability.lock"
+ "Which Locks?"
+
+
+ "cameras"
+ "capability.videoCapture"
+ "Which Cameras?"
+
+
+ "motionSensors"
+ "capability.motionSensor"
+ "Which Motion Sensors?"
+
+
+ "presenceSensors"
+ "capability.presenceSensor"
+ "Which Presence Sensors"
+
+
+ "switches"
+ "capability.switch"
+ "Which Switches and Lights?"
+
+
+ "thermostats"
+ "capability.thermostat"
+ "Which Thermostat?"
+
+
+ "waterSensors"
+ "capability.waterSensor"
+ "Which Water Leak Sensors?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/text-me-when-theres-motion-and-im-not-here.groovy
+ "motion1"
+ "capability.motionSensor"
+ "Where?"
+
+
+ "presence1"
+ "capability.presenceSensor"
+ "Who?"
+
+
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "phone1"
+ "phone"
+ "Phone number?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/ifttt.groovy
+ "switches"
+ "capability.switch"
+ "Which Switches?"
+
+
+ "motionSensors"
+ "capability.motionSensor"
+ "Which Motion Sensors?"
+
+
+ "contactSensors"
+ "capability.contactSensor"
+ "Which Contact Sensors?"
+
+
+ "presenceSensors"
+ "capability.presenceSensor"
+ "Which Presence Sensors?"
+
+
+ "temperatureSensors"
+ "capability.temperatureMeasurement"
+ "Which Temperature Sensors?"
+
+
+ "accelerationSensors"
+ "capability.accelerationSensor"
+ "Which Vibration Sensors?"
+
+
+ "waterSensors"
+ "capability.waterSensor"
+ "Which Water Sensors?"
+
+
+ "lightSensors"
+ "capability.illuminanceMeasurement"
+ "Which Light Sensors?"
+
+
+ "humiditySensors"
+ "capability.relativeHumidityMeasurement"
+ "Which Relative Humidity Sensors?"
+
+
+ "alarms"
+ "capability.alarm"
+ "Which Sirens?"
+
+
+ "locks"
+ "capability.lock"
+ "Which Locks?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/sleepy-time.groovy
+ "jawbone"
+ "device.jawboneUser"
+ "Jawbone UP"
+
+
+ "sleepPhrase"
+ "enum"
+ "Enter Sleep Mode (Bedtime) Phrase"
+
+
+ "wakePhrase"
+ "enum"
+ "Exit Sleep Mode (Waking Up) Phrase"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/smart-home-ventilation.groovy
+ "switches"
+ "Switches"
+ "Switches"
+
+
+ "timeOnA1"
+ "Schedule 1 time to turn on"
+ "Schedule 1 time to turn on"
+
+
+ "timeOffA1"
+ "Schedule 1 time to turn off"
+ "Schedule 1 time to turn off"
+
+
+ "timeOnA2"
+ "Schedule 2 time to turn on"
+ "Schedule 2 time to turn on"
+
+
+ "timeOffA2"
+ "Schedule 2 time to turn off"
+ "Schedule 2 time to turn off"
+
+
+ "timeOnA3"
+ "Schedule 3 time to turn on"
+ "Schedule 3 time to turn on"
+
+
+ "timeOffA3"
+ "Schedule 3 time to turn off"
+ "Schedule 3 time to turn off"
+
+
+ "timeOnA4"
+ "Schedule 4 time to turn on"
+ "Schedule 4 time to turn on"
+
+
+ "timeOffA4"
+ "Schedule 4 time to turn off"
+ "Schedule 4 time to turn off"
+
+
+ "titleA"
+ "Assign a scenario name"
+ "Assign a scenario name"
+
+
+ "modeA"
+ "mode"
+ "Run in specific mode(s)"
+ "Choose Modes"
+
+ "daysA"
+ "enum"
+ "Run on specific day(s)"
+ "Choose Days"
+
+ "timeOnB1"
+ "Schedule 1 time to turn on"
+ "Schedule 1 time to turn on"
+
+
+ "timeOffB1"
+ "Schedule 1 time to turn off"
+ "Schedule 1 time to turn off"
+
+
+ "timeOnB2"
+ "Schedule 2 time to turn on"
+ "Schedule 2 time to turn on"
+
+
+ "timeOffB2"
+ "Schedule 2 time to turn off"
+ "Schedule 2 time to turn off"
+
+
+ "timeOnB3"
+ "Schedule 3 time to turn on"
+ "Schedule 3 time to turn on"
+
+
+ "timeOffB3"
+ "Schedule 3 time to turn off"
+ "Schedule 3 time to turn off"
+
+
+ "timeOnB4"
+ "Schedule 4 time to turn on"
+ "Schedule 4 time to turn on"
+
+
+ "timeOffB4"
+ "Schedule 4 time to turn off"
+ "Schedule 4 time to turn off"
+
+
+ "titleB"
+ "Assign a scenario name"
+ "Assign a scenario name"
+
+
+ "modeB"
+ "mode"
+ "Run in specific mode(s)"
+ "Choose Modes"
+
+ "daysB"
+ "enum"
+ "Run on specific day(s)"
+ "Choose Days"
+
+ "timeOnC1"
+ "Schedule 1 time to turn on"
+ "Schedule 1 time to turn on"
+
+
+ "timeOffC1"
+ "Schedule 1 time to turn off"
+ "Schedule 1 time to turn off"
+
+
+ "timeOnC2"
+ "Schedule 2 time to turn on"
+ "Schedule 2 time to turn on"
+
+
+ "timeOffC2"
+ "Schedule 2 time to turn off"
+ "Schedule 2 time to turn off"
+
+
+ "timeOnC3"
+ "Schedule 3 time to turn on"
+ "Schedule 3 time to turn on"
+
+
+ "timeOffC3"
+ "Schedule 3 time to turn off"
+ "Schedule 3 time to turn off"
+
+
+ "timeOnC4"
+ "Schedule 4 time to turn on"
+ "Schedule 4 time to turn on"
+
+
+ "timeOffC4"
+ "Schedule 4 time to turn off"
+ "Schedule 4 time to turn off"
+
+
+ "titleC"
+ "Assign a scenario name"
+ "Assign a scenario name"
+
+
+ "modeC"
+ "mode"
+ "Run in specific mode(s)"
+ "Choose Modes"
+
+ "daysC"
+ "enum"
+ "Run on specific day(s)"
+ "Choose Days"
+
+ "timeOnD1"
+ "Schedule 1 time to turn on"
+ "Schedule 1 time to turn on"
+
+
+ "timeOffD1"
+ "Schedule 1 time to turn off"
+ "Schedule 1 time to turn off"
+
+
+ "timeOnD2"
+ "Schedule 2 time to turn on"
+ "Schedule 2 time to turn on"
+
+
+ "timeOffD2"
+ "Schedule 2 time to turn off"
+ "Schedule 2 time to turn off"
+
+
+ "timeOnD3"
+ "Schedule 3 time to turn on"
+ "Schedule 3 time to turn on"
+
+
+ "timeOffD3"
+ "Schedule 3 time to turn off"
+ "Schedule 3 time to turn off"
+
+
+ "timeOnD4"
+ "Schedule 4 time to turn on"
+ "Schedule 4 time to turn on"
+
+
+ "timeOffD4"
+ "Schedule 4 time to turn off"
+ "Schedule 4 time to turn off"
+
+
+ "titleD"
+ "Assign a scenario name"
+ "Assign a scenario name"
+
+
+ "modeD"
+ "mode"
+ "Run in specific mode(s)"
+ "Choose Modes"
+
+ "daysD"
+ "enum"
+ "Run on specific day(s)"
+ "Choose Days"
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/close-the-valve.groovy
+ "sensor"
+ "capability.waterSensor"
+ "Where?"
+
+
+ "valve"
+ "capability.valve"
+ "Which?"
+
+
+ "messageText"
+ "text"
+ "Message Text"
+
+
+ "phone"
+ "phone"
+ "Phone Number (for SMS, optional)"
+
+
+ "pushAndPhone"
+ "enum"
+ "Both Push and SMS?"
+
+
+ "frequency"
+ "decimal"
+ "Minutes"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/every-element.groovy
+ "booleanWithoutDescription"
+ "boolean"
+ "without description"
+
+
+ "booleanWithDescription"
+ "boolean"
+ "with description"
+ "This has a description"
+
+ "booleanWithDefaultValue"
+ "boolean"
+ "", description: "
+ "", defaultValue: "
+
+ "booleanWithoutDescriptionWithImage"
+ "boolean"
+ "without description"
+
+
+ "booleanWithDescriptionWithImage"
+ "boolean"
+ "with description"
+ "This has a description"
+
+ "iconRequired"
+ "icon"
+ "without description"
+
+
+ "iconRequiredWithDescription"
+ "icon"
+ "with description"
+ "this is a description"
+
+ "iconwithImage"
+ "icon"
+ "without description"
+
+
+ "image"
+ "This is kind of what it looks like"
+ "This is kind of what it looks like"
+
+
+ "selectionSimple"
+ "enum"
+ "Simple options"
+ "no separators in the selectable options"
+
+ "selectionGrouped"
+ "enum"
+ "Grouped options"
+ "separate groups of options with headers"
+
+ "selectionList"
+ "enum"
+ "Choose a device"
+ "settings will be something like ['Device1 Label']"
+
+ "selectionMap"
+ "enum"
+ "Choose a device"
+ "settings will be something like ['device1-id']"
+
+ "selectionSegmented1"
+ "enum"
+ "1 option"
+
+
+ "selectionSegmented4"
+ "enum"
+ "4 options"
+
+
+ "selectionSegmented2"
+ "enum"
+ "2 options"
+
+
+ "selectionSegmented3"
+ "enum"
+ "3 options"
+
+
+ "selectionSegmentedWithDefault"
+ "enum"
+ "defaulted to 'two'"
+
+
+ "selectionRequired"
+ "enum"
+ "This is required"
+ "It should look different when nothing is selected"
+
+ "selectionMultiple"
+ "enum"
+ "This allows multiple selections"
+ "It should look different when nothing is selected"
+
+ "selectionWithImage"
+ "enum"
+ "This has an image"
+ "and a description"
+
+ "textRequired"
+ "text"
+ "required: true"
+ "This should look different when nothing has been entered"
+
+ "textWithImage"
+ "text"
+ "with image"
+ "This should look different when nothing has been entered"
+
+ "text"
+ "text"
+ "This has an alpha-numeric keyboard"
+ "no special formatting"
+
+ "password"
+ "password"
+ "This has an alpha-numeric keyboard"
+ "masks value"
+
+ "email"
+ "email"
+ "This has an email-specific keyboard"
+ "no special formatting"
+
+ "phone"
+ "phone"
+ "This has a numeric keyboard"
+ "formatted for phone numbers"
+
+ "decimal"
+ "decimal"
+ "This has an numeric keyboard with decimal point"
+ "no special formatting"
+
+ "number"
+ "number"
+ "This has an numeric keyboard without decimal point"
+ "no special formatting"
+
+ "decimalRange50..150"
+ "decimal"
+ "only values between 50 and 150 will pass validation"
+ "no special formatting"
+
+ "numberRange-50..50"
+ "number"
+ "only values between -50 and 50 will pass validation"
+ "no special formatting"
+
+ "decimalRange*..0"
+ "decimal"
+ "only negative values will pass validation"
+ "no special formatting"
+
+ "numberRange*..*"
+ "number"
+ "only positive values will pass validation"
+ "no special formatting"
+
+ "timeWithDescription"
+ "time"
+ "a time picker"
+ "with a description"
+
+ "timeWithoutDescription"
+ "time"
+ "without a description"
+
+
+ "timeRequired"
+ "time"
+ "required: true"
+
+
+ "deviceRequired"
+ "device.switch"
+ "This is required"
+ "It should look different when nothing is selected"
+
+ "deviceMultiple"
+ "device.switch"
+ "This is required"
+ "It should look different when nothing is selected"
+
+ "deviceRequired"
+ "device.switch"
+ "This has an image"
+ "and a description"
+
+ "capabilityRequired"
+ "capability.switch"
+ "This is required"
+ "It should look different when nothing is selected"
+
+ "capabilityMultiple"
+ "capability.switch"
+ "This is required"
+ "It should look different when nothing is selected"
+
+ "capabilityRequired"
+ "capability.switch"
+ "This has an image"
+ "and a description"
+
+ "roomRequired"
+ "room"
+ "This is required"
+ "It should look different when nothing is selected"
+
+ "roomMultiple"
+ "room"
+ "This is required"
+ "It should look different when nothing is selected"
+
+ "roomRequired"
+ "room"
+ "This has an image"
+ "and a description"
+
+ "modeRequired"
+ "mode"
+ "This is required"
+ "It should look different when nothing is selected"
+
+ "modeMultiple"
+ "mode"
+ "This is required"
+ "It should look different when nothing is selected"
+
+ "modeRequired"
+ "mode"
+ "This has an image"
+ "and a description"
+
+ "hubRequired"
+ "hub"
+ "This is required"
+ "It should look different when nothing is selected"
+
+ "hubMultiple"
+ "hub"
+ "This is required"
+ "It should look different when nothing is selected"
+
+ "hubRequired"
+ "hub"
+ "This has an image"
+ "and a description"
+
+ "contactRequired"
+ "contact"
+ "This is required"
+ "It should look different when nothing is selected"
+
+ "contactMultiple"
+ "contact"
+ "This is required"
+ "It should look different when nothing is selected"
+
+ "contactRequired"
+ "contact"
+ "This has an image"
+ "and a description"
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/ridiculously-automated-garage-door.groovy
+ "doorSensor"
+ "capability.contactSensor"
+ "Which sensor?"
+
+
+ "doorSwitch"
+ "capability.momentary"
+ "Which switch?"
+
+
+ "openThreshold"
+ "number"
+ "Warn when open longer than (optional)"
+ "Number of minutes"
+
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "phone"
+ "phone"
+ "Warn with text message (optional)"
+ "Phone Number"
+
+ "cars"
+ "capability.presenceSensor"
+ "Presence sensor"
+ "Which car(s)?"
+
+ "carDoorSensors"
+ "capability.accelerationSensor"
+ "Car door sensor(s)"
+ "Which car(s)?"
+
+ "interiorDoorSensor"
+ "capability.contactSensor"
+ "Contact sensor?"
+
+
+ "falseAlarmThreshold"
+ "number"
+ "Number of minutes"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/bon-voyage.groovy
+ "people"
+ "capability.presenceSensor"
+
+
+
+ "newMode"
+ "mode"
+ "Mode?"
+
+
+ "falseAlarmThreshold"
+ "decimal"
+ "Number of minutes"
+
+
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "sendPushMessage"
+ "enum"
+ "Send a push notification?"
+
+
+ "phone"
+ "phone"
+ "Send a Text Message?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/wemo-connect.groovy
+ "selectedSwitches"
+ "enum"
+"Select Wemo Switches \n(${switchesDiscovered.size() ?: 0} found)"
+
+
+ "selectedMotions"
+ "enum"
+"Select Wemo Motions \n(${motionsDiscovered.size() ?: 0} found)"
+
+
+ "selectedLightSwitches"
+ "enum"
+"Select Wemo Light Switches \n(${lightSwitchesDiscovered.size() ?: 0} found)"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/hello-home-phrase-director.groovy
+ "falseAlarmThreshold"
+ "decimal"
+ "Number of minutes"
+
+
+ "zip"
+ "decimal"
+
+
+
+ "sendPushMessage"
+ "enum"
+ "Send a push notification when house is empty?"
+
+
+ "sendPushMessageHome"
+ "enum"
+ "Send a push notification when home is occupied?"
+
+
+ "days"
+ "enum"
+ "Only on certain days of the week"
+
+
+ "modes"
+ "mode"
+ "Only when mode is"
+
+
+ "people"
+ "capability.presenceSensor"
+ "Monitor These Presences"
+
+
+ "awayDay"
+ "enum"
+ "Everyone Is Away And It's Day"
+
+
+ "awayNight"
+ "enum"
+ "Everyone Is Away And It's Night"
+
+
+ "homeDay"
+ "enum"
+ "At Least One Person Is Home And It's Day"
+
+
+ "homeNight"
+ "enum"
+ "At Least One Person Is Home And It's Night"
+
+
+ "homeModeDay"
+ "mode"
+ "Select Mode Used for 'Home Day'"
+
+
+ "homeModeNight"
+ "mode"
+ "Select Mode Used for 'Home Night'"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/jawbone-button-notifier.groovy
+ "jawbone"
+ "device.jawboneUser"
+
+
+
+ "warnMessage"
+ "text"
+ "Warning Message"
+
+
+("phone1"
+ "contact"
+
+
+
+ "phone1"
+ "phone"
+
+
+
+("phone2"
+ "contact"
+
+
+
+ "phone2"
+ "phone"
+
+
+
+("phone3"
+ "contact"
+
+
+
+ "phone3"
+ "phone"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/undead-early-warning.groovy
+ "contacts"
+ "capability.contactSensor"
+ "Where could they come from?"
+
+
+ "switches"
+ "capability.switch"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/simple-sync-trigger.groovy
+ "starting"
+ "time"
+ "Starting"
+
+
+ "ending"
+ "time"
+ "Ending"
+
+
+ "agent"
+ "capability.mediaController"
+ "Simple Sync"
+
+
+ "activity"
+ "enum"
+ "Activity?"
+
+
+ "frequency"
+ "decimal"
+ "Minimum time between actions (defaults to every event)"
+ "Minutes"
+
+ "days"
+ "enum"
+ "Only on certain days of the week"
+
+
+ "modes"
+ "mode"
+ "Only when mode is"
+
+
+ "oncePerDay"
+ "bool"
+ "Only once per day"
+
+
+not regular input mode: input(options, name, capability)
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/let-there-be-light.groovy
+ "contact1"
+ "capability.contactSensor"
+ "Where?"
+
+
+ "switch1"
+ "capability.switch"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/mini-hue-controller.groovy
+ "bulbs"
+ "capability.colorControl"
+ "Hue light bulbs"
+
+
+ "controller"
+ "capability.button"
+ "Aeon minimote"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/ubi.groovy
+ "switches"
+ "capability.switch"
+ "Which Switches?"
+
+
+ "motions"
+ "capability.motionSensor"
+ "Which Motion Sensors?"
+
+
+ "locks"
+ "capability.lock"
+ "Which Locks?"
+
+
+ "contactSensors"
+ "capability.contactSensor"
+ "Which Contact Sensors?"
+
+
+ "presenceSensors"
+ "capability.presenceSensor"
+ "Which Presence Sensors?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/switch-activates-home-phrase-or-mode.groovy
+ "controlSwitch"
+ "capability.switch"
+ "Switch"
+
+
+ "phrase_on"
+ "enum"
+ "Switch is on"
+
+
+ "phrase_off"
+ "enum"
+ "Switch is off"
+
+
+ "onMode"
+ "mode"
+ "Switch is on"
+
+
+ "offMode"
+ "mode"
+ "Switch is off"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/sonos-music-modes.groovy
+ "starting"
+ "time"
+ "Starting"
+
+
+ "ending"
+ "time"
+ "Ending"
+
+
+ "sonos"
+ "capability.musicPlayer"
+ "Sonos player"
+
+
+ "volume"
+ "number"
+ "Set the volume"
+ "0-100%"
+
+ "frequency"
+ "decimal"
+ "Minimum time between actions (defaults to every event)"
+ "Minutes"
+
+ "days"
+ "enum"
+ "Only on certain days of the week"
+
+
+ "modes"
+ "mode"
+ "Only when mode is"
+
+
+ "oncePerDay"
+ "bool"
+ "Only once per day"
+
+
+ "mode_$mode.name"
+ "enum"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/the-big-switch.groovy
+ "master"
+ "capability.switch"
+ "Where?"
+
+
+ "switches"
+ "capability.switch"
+
+
+
+ "offSwitches"
+ "capability.switch"
+
+
+
+ "onSwitches"
+ "capability.switch"
+
+
+
+ "dimSwitches"
+ "capability.switchLevel"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/hub-ip-notifier.groovy
+ "hub"
+ "hub"
+ "Select a hub"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/smart-turn-it-on.groovy
+ "switchOne"
+ "capability.switch"
+"Select Light"
+
+
+ "presenceOne"
+ "capability.presenceSensor"
+ "Select Person"
+
+
+ "dayOne"
+ "enum"
+"Select Days"
+
+
+ "timeOne"
+ "time"
+ "Select Time"
+
+
+ "timeTwo"
+ "number"
+ "Number of minutes"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/sprayer-controller-2.groovy
+ "valves1"
+ "capability.switch"
+
+
+
+ "startHour1"
+ "number"
+ "Start Hour"
+
+
+ "stopHour1"
+ "number"
+ "Stop Hour"
+
+
+ "minutes"
+ "enum"
+ "Run how many times an Hour?"
+
+
+ "duration"
+ "number"
+ "For how many seconds?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/its-too-cold.groovy
+ "temperatureSensor1"
+ "capability.temperatureMeasurement"
+
+
+
+ "temperature1"
+ "number"
+ "Temperature?"
+
+
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "sendPushMessage"
+ "enum"
+ "Send a push notification?"
+
+
+ "phone1"
+ "phone"
+ "Send a Text Message?"
+
+
+ "switch1"
+ "capability.switch"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/ready-for-rain.groovy
+ "sensors"
+ "capability.contactSensor"
+
+
+
+ "sendPushMessage"
+ "enum"
+ "Send a push notification?"
+
+
+ "phone"
+ "phone"
+ "Send a Text Message?"
+
+
+ "messageDelay"
+ "number"
+ "Minutes (default to every message)"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/alfred-workflow.groovy
+ "switches"
+ "capability.switch"
+ "Which Switches?"
+
+
+ "locks"
+ "capability.lock"
+ "Which Locks?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/single-button-controller.groovy
+ "buttonDevice"
+ "device.aeonKeyFob"
+ "Button"
+
+
+ "lights_1_pushed"
+ "capability.switch"
+ "Pushed"
+
+
+ "lights_1_held"
+ "capability.switch"
+ "Held"
+
+
+ "locks_1_pushed"
+ "capability.lock"
+ "Pushed"
+
+
+ "locks_1_held"
+ "capability.lock"
+ "Held"
+
+
+ "sonos_1_pushed"
+ "capability.musicPlayer"
+ "Pushed"
+
+
+ "sonos_1_held"
+ "capability.musicPlayer"
+ "Held"
+
+
+ "mode_1_pushed"
+ "mode"
+ "Pushed"
+
+
+ "mode_1_held"
+ "mode"
+ "Held"
+
+
+ "phrase_1_pushed"
+ "enum"
+ "Pushed"
+
+
+ "phrase_1_held"
+ "enum"
+ "Held"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/power-allowance.groovy
+ "theSwitch"
+ "capability.switch"
+
+
+
+ "minutesLater"
+ "number"
+ "When?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/energy-alerts.groovy
+ "meter"
+ "capability.powerMeter"
+ "When This Power Meter..."
+
+
+ "aboveThreshold"
+ "number"
+ "Reports Above..."
+ "in either watts or kw."
+
+ "belowThreshold"
+ "number"
+ "Or Reports Below..."
+ "in either watts or kw."
+
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "sms"
+ "phone"
+ "Send A Text To"
+
+
+ "pushNotification"
+ "bool"
+ "Send a push notification"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/smart-nightlight.groovy
+ "lights"
+ "capability.switch"
+
+
+
+ "motionSensor"
+ "capability.motionSensor"
+ "Where?"
+
+
+ "delayMinutes"
+ "number"
+ "Minutes?"
+
+
+ "lightSensor"
+ "capability.illuminanceMeasurement"
+
+
+
+ "sunriseOffsetValue"
+ "text"
+ "HH:MM"
+
+
+ "sunriseOffsetDir"
+ "enum"
+ "Before or After"
+
+
+ "sunsetOffsetValue"
+ "text"
+ "HH:MM"
+
+
+ "sunsetOffsetDir"
+ "enum"
+ "Before or After"
+
+
+ "zipCode"
+ "text"
+ "Zip code"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/hue-connect.groovy
+ "selectedHue"
+ "enum"
+ "Select Hue Bridge ({{numFound}} found)"
+
+
+ "selectedBulbs"
+ "enum"
+ "Select Hue Lights to add ({{numFound}} found)"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/lock-it-at-a-specific-time.groovy
+ "time"
+ "time"
+ "Time of Day"
+
+
+ "lock"
+,"capability.lock"
+
+
+
+ "contact"
+ "capability.contactSensor"
+ "Which contact sensor?"
+
+
+ "sendPushMessage"
+ "enum"
+ "Send a push notification?"
+
+
+ "phone"
+ "phone"
+ "Send a text message?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/brighten-dark-places.groovy
+ "contact1"
+ "capability.contactSensor"
+ "Where?"
+
+
+ "luminance1"
+ "capability.illuminanceMeasurement"
+ "Where?"
+
+
+ "switch1"
+ "capability.switch"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/gentle-wake-up.groovy
+ "dimmers"
+ "capability.switchLevel"
+ "Dimmers"
+
+
+ "manualOverride"
+ "enum"
+ "When one of the dimmers is manually turned off…"
+ "dimming will continue"
+
+ "dimmers"
+ "capability.sensor"
+ "Please remove the above devices from this list."
+
+
+ "duration"
+ "number"
+ "For this many minutes"
+ "30"
+
+ "startLevel"
+ "number"
+ "From this level"
+ "Current Level"
+
+ "endLevel"
+ "number"
+ "To this level"
+ "Between 0 and 99"
+
+ "colorize"
+ "bool"
+ "Gradually change the color of ${fancyDeviceString(colorDimmers)}"
+
+
+ "days"
+ "enum"
+ "On These Days"
+ "Every day"
+
+ "startTime"
+ "time"
+ "At This Time"
+
+
+ "modeStart"
+ "mode"
+ "When Entering This Mode"
+
+
+ "modeStop"
+ "bool"
+ "Stop when leaving '${modeStart}' mode"
+
+
+ "completionSwitches"
+ "capability.switch"
+ "Set these switches"
+
+
+ "completionSwitchesState"
+ "enum"
+ "To"
+
+
+ "completionSwitchesLevel"
+ "number"
+ "Optionally, Set Dimmer Levels To"
+
+
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "completionPhoneNumber"
+ "phone"
+ "Text This Number"
+ "Phone number"
+
+ "completionPush"
+ "bool"
+ "Send A Push Notification"
+ "Phone number"
+
+ "completionMusicPlayer"
+ "capability.musicPlayer"
+ "Speak Using This Music Player"
+
+
+ "completionMessage"
+ "text"
+ "With This Message"
+
+
+ "completionMode"
+ "mode"
+ "Change ${location.name} Mode To"
+
+
+ "completionPhrase"
+ "enum"
+ "Execute The Phrase"
+
+
+ "completionDelay"
+ "number"
+ "Delay This Many Minutes Before Executing These Actions"
+ "0"
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/energy-saver.groovy
+ "meter"
+ "capability.powerMeter"
+ "When This Power Meter..."
+
+
+ "threshold"
+ "number"
+ "Reports Above..."
+ "in either watts or kw."
+
+ "switches"
+ "capability.switch"
+ "Turn Off These Switches"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/thermostat-auto-off.groovy
+("thermostat"
+ "capability.thermostat"
+ "Thermostat"
+
+
+("sensors"
+ "capability.contactSensor"
+ "Sensors"
+
+
+("delay"
+ "number"
+ "Delay (seconds)"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/button-controller.groovy
+ "starting"
+ "time"
+ "Starting"
+
+
+ "ending"
+ "time"
+ "Ending"
+
+
+ "buttonDevice"
+ "capability.button"
+ "Button"
+
+
+ "days"
+ "enum"
+ "Only on certain days of the week"
+
+
+ "modes"
+ "mode"
+ "Only when mode is"
+
+
+ "lights_${buttonNumber}_pushed"
+ "capability.switch"
+ "Pushed"
+
+
+ "lights_${buttonNumber}_held"
+ "capability.switch"
+ "Held"
+
+
+ "locks_${buttonNumber}_pushed"
+ "capability.lock"
+ "Pushed"
+
+
+ "locks_${buttonNumber}_held"
+ "capability.lock"
+ "Held"
+
+
+ "sonos_${buttonNumber}_pushed"
+ "capability.musicPlayer"
+ "Pushed"
+
+
+ "sonos_${buttonNumber}_held"
+ "capability.musicPlayer"
+ "Held"
+
+
+ "mode_${buttonNumber}_pushed"
+ "mode"
+ "Pushed"
+
+
+ "mode_${buttonNumber}_held"
+ "mode"
+ "Held"
+
+
+ "phrase_${buttonNumber}_pushed"
+ "enum"
+ "Pushed"
+
+
+ "phrase_${buttonNumber}_held"
+ "enum"
+ "Held"
+
+
+ "sirens_${buttonNumber}_pushed"
+,"capability.alarm" 
+ "Pushed"
+
+
+ "sirens_${buttonNumber}_held"
+ "capability.alarm"
+ "Held"
+
+
+ "textMessage_${buttonNumber}"
+ "text"
+ "Message"
+
+
+ "notifications_${buttonNumber}_pushed"
+,"bool" 
+ "Pushed"
+
+
+ "notifications_${buttonNumber}_held"
+ "bool"
+ "Held"
+
+
+ "phone_${buttonNumber}_pushed"
+,"phone" 
+ "Pushed"
+
+
+ "phone_${buttonNumber}_held"
+ "phone"
+ "Held"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/jenkins-notifier.groovy
+ "jenkinsUrl"
+ "text"
+ "Jenkins URL"
+
+
+ "jenkinsUsername"
+ "text"
+ "Jenkins Username"
+
+
+ "jenkinsPassword"
+ "password"
+ "Jenkins Password"
+
+
+ "switches"
+ "capability.switch"
+
+
+
+ "hues"
+ "capability.colorControl"
+ "Which Hue Bulbs?"
+
+
+ "colorSuccess"
+ "enum"
+ "Hue Color On Success?"
+
+
+ "colorFail"
+ "enum"
+ "Hue Color On Fail?"
+
+
+ "lightLevelSuccess"
+ "number"
+ "Light Level On Success?"
+
+
+ "lightLevelFail"
+ "number"
+ "Light Level On Fail?"
+
+
+ "refreshInterval"
+ "decimal"
+ "Check Server... (minutes)"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/nfc-tag-toggle.groovy
+ "tag"
+ "capability.touchSensor"
+ "NFC Tag"
+
+
+ "switch1"
+ "capability.switch"
+ "Light or switch"
+
+
+ "lock"
+ "capability.lock"
+ "Lock"
+
+
+ "garageDoor"
+ "capability.doorControl"
+ "Garage door controller"
+
+
+ "masterSwitch"
+ "enum"
+ "Master switch"
+
+
+ "masterLock"
+ "enum"
+ "Master lock"
+
+
+ "masterDoor"
+ "enum"
+ "Master door"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/rise-and-shine.groovy
+ "motionSensors"
+ "capability.motionSensor"
+
+
+
+ "timeOfDay"
+ "time"
+ "Start Time?"
+
+
+ "endTime"
+ "time"
+ "End Time?"
+
+
+ "newMode"
+ "mode"
+ "Mode?"
+
+
+ "switches"
+ "capability.switch"
+
+
+
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "sendPushMessage"
+ "enum"
+ "Send a push notification?"
+
+
+ "phoneNumber"
+ "phone"
+ "Send a Text Message?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/flood-alert.groovy
+ "alarm"
+ "capability.waterSensor"
+ "Where?"
+
+
+("recipients"
+ "contact"
+ "Recipients"
+ "Send notifications to"
+
+ "phone"
+ "phone"
+ "Phone number?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/garage-door-monitor.groovy
+ "multisensor"
+ "capability.threeAxis"
+ "Which?"
+
+
+ "maxOpenTime"
+ "number"
+ "Minutes?"
+
+
+("recipients"
+ "contact"
+ "Notify"
+ "Send notifications to"
+
+ "phone"
+ "phone"
+ "Phone number?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/enhanced-auto-lock-door.groovy
+ "lock1"
+ "capability.lock"
+
+
+
+ "contact"
+ "capability.contactSensor"
+
+
+
+ "minutesLater"
+ "number"
+ "Delay (in minutes):"
+
+
+ "secondsLater"
+ "number"
+ "Delay (in seconds):"
+
+
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "phoneNumber"
+ "phone"
+ "Warn with text message (optional)"
+ "Phone Number"
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/make-it-so.groovy
+ "switches"
+ "capability.switch"
+
+
+
+ "thermostats"
+ "capability.thermostat"
+
+
+
+ "locks"
+ "capability.lock"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/medicine-reminder.groovy
+ "cabinet1"
+ "capability.contactSensor"
+ "Where?"
+
+
+ "time1"
+ "time"
+ "Time 1"
+
+
+ "time2"
+ "time"
+ "Time 2"
+
+
+ "time3"
+ "time"
+ "Time 3"
+
+
+ "time4"
+ "time"
+ "Time 4"
+
+
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "sendPush"
+ "enum"
+ "Push Notification"
+
+
+ "phone1"
+ "phone"
+ "Phone Number"
+
+
+ "timeWindow"
+ "decimal"
+ "Minutes"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/withings-manager.groovy
+ "withingsLabel"
+ "text"
+ "Add a name"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/my-light-toggle.groovy
+ "motionToggler"
+ "capability.motionSensor"
+ "Motion Here"
+
+
+ "masterToggle"
+ "capability.switch"
+ "Reference switch"
+
+
+ "switchesToToggle"
+ "capability.switch"
+ "These go on/off"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/door-knocker.groovy
+ "knockSensor"
+ "capability.accelerationSensor"
+ "Where?"
+
+
+ "openSensor"
+ "capability.contactSensor"
+ "Where?"
+
+
+ "knockDelay"
+ "number"
+ "How Long?"
+
+
+ "sendPushMessage"
+ "enum"
+ "Send a push notification?"
+
+
+ "phone"
+ "phone"
+ "Send a Text Message?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/thermostat-window-check.groovy
+ "sensors"
+ "capability.contactSensor"
+
+
+
+ "thermostats"
+ "capability.thermostat"
+
+
+
+ "sendPushMessage"
+ "enum"
+ "Send a push notification?"
+
+
+ "phone"
+ "phone"
+ "Send a Text Message?"
+
+
+ "turnOffTherm"
+ "enum"
+
+
+
+ "turnOffDelay"
+ "decimal"
+ "Number of minutes"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/hue-mood-lighting.groovy
+ "starting"
+ "time"
+ "Starting"
+
+
+ "ending"
+ "time"
+ "Ending"
+
+
+ "hues"
+ "capability.colorControl"
+ "Which Hue Bulbs?"
+
+
+ "color"
+ "enum"
+ "Hue Color?"
+
+
+ "lightLevel"
+ "enum"
+ "Light Level?"
+
+
+ "frequency"
+ "decimal"
+ "Minimum time between actions (defaults to every event)"
+ "Minutes"
+
+ "days"
+ "enum"
+ "Only on certain days of the week"
+
+
+ "modes"
+ "mode"
+ "Only when mode is"
+
+
+ "oncePerDay"
+ "bool"
+ "Only once per day"
+
+
+not regular input mode: input(options, name, capability)
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/smart-light-timer-x-minutes-unless-already-on.groovy
+ "motions"
+ "capability.motionSensor"
+ "Select motion detectors"
+
+
+ "contacts"
+ "capability.contactSensor"
+ "Select Contacts"
+
+
+ "minutes1"
+ "number"
+ "Minutes?"
+
+
+ "switches"
+ "capability.switch"
+ "Select Lights"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/cameras-on-when-im-away.groovy
+ "people"
+ "capability.presenceSensor"
+
+
+
+ "switches1"
+ "capability.switch"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/has-barkley-been-fed.groovy
+ "feeder1"
+ "capability.contactSensor"
+ "Where?"
+
+
+ "time1"
+ "time"
+ "When?"
+
+
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "phone1"
+ "phone"
+ "Phone number?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/garage-door-opener.groovy
+ "switch1"
+ "capability.switch"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/simple-sync-connect.groovy
+ "selectedAgent"
+ "enum"
+"Select Simple Sync\n(${agentsDiscovered.size() ?: 0} found)"
+
+
+ "manualIPAddress"
+ "text"
+ "IP Address"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/logitech-harmony-connect.groovy
+ "switches"
+ "capability.switch"
+ "Which Switches?"
+
+
+ "motionSensors"
+ "capability.motionSensor"
+ "Which Motion Sensors?"
+
+
+ "contactSensors"
+ "capability.contactSensor"
+ "Which Contact Sensors?"
+
+
+ "thermostats"
+ "capability.thermostat"
+ "Which Thermostats?"
+
+
+ "presenceSensors"
+ "capability.presenceSensor"
+ "Which Presence Sensors?"
+
+
+ "temperatureSensors"
+ "capability.temperatureMeasurement"
+ "Which Temperature Sensors?"
+
+
+ "accelerationSensors"
+ "capability.accelerationSensor"
+ "Which Vibration Sensors?"
+
+
+ "waterSensors"
+ "capability.waterSensor"
+ "Which Water Sensors?"
+
+
+ "lightSensors"
+ "capability.illuminanceMeasurement"
+ "Which Light Sensors?"
+
+
+ "humiditySensors"
+ "capability.relativeHumidityMeasurement"
+ "Which Relative Humidity Sensors?"
+
+
+ "alarms"
+ "capability.alarm"
+ "Which Sirens?"
+
+
+ "locks"
+ "capability.lock"
+ "Which Locks?"
+
+
+ "selectedhubs"
+ "enum"
+"Select Harmony Hubs (${numFoundHub} found)"
+
+
+ "selectedactivities"
+ "enum"
+"Select Harmony Activities (${numFoundAct} found)"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/foscam-connect.groovy
+ "selectedFoscam"
+ "enum"
+"Select Foscam (${numFound} found)"
+
+
+ "username"
+ "text"
+ "Username"
+
+
+ "password"
+ "password"
+ "Password"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/laundry-monitor.groovy
+ "sensor1"
+ "capability.accelerationSensor"
+
+
+
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "phone"
+ "phone"
+ "Phone Number"
+
+
+ "switches"
+ "capability.switch"
+ "Which lights?"
+
+
+ "lightMode"
+ "enum"
+ "Action?"
+
+
+ "cycleTime"
+ "decimal"
+ "Minimum cycle time"
+
+
+ "fillTime"
+ "decimal"
+ "Time to fill tub"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/beaconthings-manager.groovy
+found NONE
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/curb-control.groovy
+ "switches"
+ "capability.switch"
+ "Which Switches?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/withings.groovy
+found NONE
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/life360-connect.groovy
+ "username"
+ "text"
+ "Life360 Username?"
+
+
+ "password"
+ "password"
+ "Life360 Password?"
+
+
+ "username"
+ "text"
+ "Life360 Username?"
+
+
+ "password"
+ "password"
+ "Life360 Password?"
+
+
+ "circle"
+ "enum"
+"Life360 Circle: "
+
+
+ "place"
+ "enum"
+"Life360 Places: "
+
+
+ "users"
+ "enum"
+"Life360 Users: "
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/turn-off-with-motion.groovy
+ "motion1"
+ "capability.motionSensor"
+ "Where?"
+
+
+ "minutes1"
+ "number"
+ "Minutes?"
+
+
+ "switches"
+ "capability.switch"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/lock-it-when-i-leave.groovy
+ "presence1"
+ "capability.presenceSensor"
+ "Who?"
+
+
+ "lock1"
+,"capability.lock"
+
+
+
+ "unlock"
+ "enum"
+ "Unlock when presence is detected?"
+
+
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "spam"
+ "enum"
+ "Send Me Notifications?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/good-night-house.groovy
+ "switchesoff"
+ "capability.switch"
+
+
+
+ "switcheson"
+ "capability.switch"
+
+
+
+ "lock1"
+,"capability.lock"
+
+
+
+ "newMode"
+ "mode"
+ "Mode?"
+
+
+ "waitfor"
+ "number"
+ "Off after (default 120)"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/elder-care-slip-fall.groovy
+ "bedroomMotion"
+ "capability.motionSensor"
+
+
+
+ "bathroomMotion"
+ "capability.motionSensor"
+
+
+
+ "startTime"
+ "time"
+ "Start Time"
+
+
+ "stopTime"
+ "time"
+ "Stop Time"
+
+
+ "warnMessage"
+ "text"
+ "Warning Message"
+
+
+ "threshold"
+ "number"
+ "Minutes"
+
+
+("recipients"
+ "contact"
+ "Recipients"
+ "Send notifications to"
+
+ "phone1"
+ "phone"
+
+
+
+ "phone2"
+ "phone"
+
+
+
+ "phone3"
+ "phone"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/plantlink-connector.groovy
+ "plantlinksensors"
+ "capability.sensor"
+ "Select PlantLink sensors"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/lifx-connect.groovy
+ "selectedLocationId"
+ "enum"
+"Select location ({{count}} found)"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/presence-change-push.groovy
+ "presence"
+ "capability.presenceSensor"
+ "Which sensor?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/notify-me-when.groovy
+ "button"
+ "capability.button"
+ "Button Pushed"
+
+
+ "motion"
+ "capability.motionSensor"
+ "Motion Here"
+
+
+ "contact"
+ "capability.contactSensor"
+ "Contact Opens"
+
+
+ "contactClosed"
+ "capability.contactSensor"
+ "Contact Closes"
+
+
+ "acceleration"
+ "capability.accelerationSensor"
+ "Acceleration Detected"
+
+
+ "mySwitch"
+ "capability.switch"
+ "Switch Turned On"
+
+
+ "mySwitchOff"
+ "capability.switch"
+ "Switch Turned Off"
+
+
+ "arrivalPresence"
+ "capability.presenceSensor"
+ "Arrival Of"
+
+
+ "departurePresence"
+ "capability.presenceSensor"
+ "Departure Of"
+
+
+ "smoke"
+ "capability.smokeDetector"
+ "Smoke Detected"
+
+
+ "water"
+ "capability.waterSensor"
+ "Water Sensor Wet"
+
+
+ "messageText"
+ "text"
+ "Message Text"
+
+
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "phone"
+ "phone"
+ "Enter a phone number to get SMS"
+
+
+ "pushAndPhone"
+ "enum"
+ "Notify me via Push Notification"
+
+
+ "frequency"
+ "decimal"
+ "Minutes"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/switch-activates-home-phrase.groovy
+ "controlSwitch"
+ "capability.switch"
+ "Switch"
+
+
+ "phrase_on"
+ "enum"
+ "Switch is on"
+
+
+ "phrase_off"
+ "enum"
+ "Switch is off"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/netatmo-connect.groovy
+not regular input mode: input(name:"Devices", style:"embedded", required:false, title:"Netatmo is connected to SmartThings", description:description)
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/bright-when-dark-and-or-bright-after-sunset.groovy
+ "starting"
+ "time"
+ "Starting"
+
+
+ "ending"
+ "time"
+ "Ending"
+
+
+ "dark"
+ "bool"
+ "It is dark?"
+
+
+ "sun"
+ "bool"
+ "Between sunset and surise?"
+
+
+ "days"
+ "enum"
+ "Only on certain days of the week:"
+
+
+ "modes"
+ "mode"
+ "Only when mode is:"
+
+
+ "lights"
+ "capability.switch"
+ "Light(s)?"
+
+
+ "dimmers"
+ "capability.switchLevel"
+ "Dimmer(s)?"
+
+
+ "level"
+ "number"
+ "How bright?"
+ "0% to 100%"
+
+ "motionSensor"
+ "capability.motionSensor"
+ "Where?"
+
+
+ "delayMinutes"
+ "number"
+ "Minutes?"
+
+
+ "lightSensor"
+ "capability.illuminanceMeasurement"
+ "Light Sensor?"
+
+
+ "luxLevel"
+ "number"
+ "Illuminance threshold? (default 50 lux)"
+
+
+ "sunriseOffsetValue"
+ "text"
+ "Sunrise offset"
+ "00:00"
+
+ "sunriseOffsetDir"
+ "enum"
+ "Before or After"
+
+
+ "sunsetOffsetValue"
+ "text"
+ "Sunset offset"
+ "00:00"
+
+ "sunsetOffsetDir"
+ "enum"
+ "Before or After"
+
+
+ "zipCode"
+ "text"
+ "Zip Code?"
+ "Local Zip Code"
+
+ "lights"
+ "capability.switch"
+ "Light(s)?"
+
+
+ "dimmers"
+ "capability.switchLevel"
+ "Dimmer(s)?"
+
+
+ "level"
+ "number"
+ "How bright?"
+ "0% to 100%"
+
+ "motionSensor"
+ "capability.motionSensor"
+ "Where?"
+
+
+ "delayMinutes"
+ "number"
+ "Minutes?"
+
+
+ "lightSensor"
+ "capability.illuminanceMeasurement"
+ "Light Sensor?"
+
+
+ "luxLevel"
+ "number"
+ "Illuminance threshold? (default 50 lux)"
+
+
+ "lights"
+ "capability.switch"
+ "Light(s)?"
+
+
+ "dimmers"
+ "capability.switchLevel"
+ "Dimmer(s)?"
+
+
+ "level"
+ "number"
+ "How bright?"
+ "0% to 100%"
+
+ "motionSensor"
+ "capability.motionSensor"
+ "Where?"
+
+
+ "delayMinutes"
+ "number"
+ "Minutes?"
+
+
+ "sunriseOffsetValue"
+ "text"
+ "Sunrise offset"
+ "00:00"
+
+ "sunriseOffsetDir"
+ "enum"
+ "Before or After"
+
+
+ "sunsetOffsetValue"
+ "text"
+ "Sunset offset"
+ "00:00"
+
+ "sunsetOffsetDir"
+ "enum"
+ "Before or After"
+
+
+ "zipCode"
+ "text"
+ "Zip Code?"
+ "Local Zip Code"
+
+ "lights"
+ "capability.switch"
+ "Light(s)?"
+
+
+ "dimmers"
+ "capability.switchLevel"
+ "Dimmer(s)?"
+
+
+ "level"
+ "number"
+ "How bright?"
+ "0% to 100%"
+
+ "motionSensor"
+ "capability.motionSensor"
+ "Where?"
+
+
+ "delayMinutes"
+ "number"
+ "Minutes?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/big-turn-on.groovy
+ "switches"
+ "capability.switch"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/tcp-bulbs-connect.groovy
+ "username"
+ "text"
+ "Enter TCP Remote Email/UserName"
+
+
+ "password"
+ "password"
+ "Enter TCP Remote Password"
+
+
+ "selectedBulbs"
+ "enum"
+"Select Bulb/Fixture"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/double-tap.groovy
+ "master"
+ "capability.switch"
+ "Where?"
+
+
+ "switches"
+ "capability.switch"
+
+
+
+ "offSwitches"
+ "capability.switch"
+
+
+
+ "onSwitches"
+ "capability.switch"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/goodnight-ubi.groovy
+ "behaviorToken"
+ "text"
+ "What is the Ubi Token?"
+
+
+ "trigger"
+ "capability.switch"
+ "Which virtual tile is the trigger?"
+
+
+ "doors"
+ "capability.contactSensor"
+
+
+
+ "theSwitches"
+ "capability.switch"
+
+
+
+ "minutes"
+ "number"
+
+
+
+ "sayPhrase"
+ "enum"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/obything-music-connect.groovy
+ "theAddr"
+ "string"
+ "IP:port (click icon in status bar)"
+
+
+ "theHub"
+ "hub"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/smart-auto-lock-unlock.groovy
+ "lock1"
+ "capability.lock"
+
+
+
+ "contact1"
+ "capability.contactSensor"
+
+
+
+ "minutesLater"
+ "number"
+ "Delay (in minutes):"
+
+
+ "secondsLater"
+ "number"
+ "Delay (in seconds):"
+
+
+ "sendPushMessage"
+ "enum"
+ "Send push notification?"
+
+
+ "sendText"
+ "enum"
+ "Send text message notification?"
+
+
+ "phoneNumber"
+ "phone"
+ "Enter phone number:"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/smartblock-notifier.groovy
+ "smartBlock"
+ "capability.switch"
+ "Which SmartBlock would you like to monitor?"
+
+
+ "redstoneGreaterThan"
+ "enum"
+ "Greater Than"
+
+
+ "redstoneLessThan"
+ "enum"
+ "Less than"
+
+
+ "redstoneEqualTo"
+ "enum"
+ "Equal to"
+
+
+ "neighborBlockParsed"
+ "enum"
+ "When any of these blocks are updated"
+
+
+not regular input mode: input(
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/darken-behind-me.groovy
+ "motion1"
+ "capability.motionSensor"
+ "Where?"
+
+
+ "switch1"
+ "capability.switch"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/monitor-on-sense.groovy
+ "accelerationSensor"
+ "capability.accelerationSensor"
+ "Which Sensor?"
+
+
+ "switch1"
+ "capability.switch"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/auto-humidity-vent.groovy
+ "app_enabled"
+ "bool"
+ "Auto Humidity Vent"
+
+
+ "fan_control_enabled"
+ "bool"
+ "Vent Fan Control"
+
+
+ "humidity_sensor"
+ "capability.relativeHumidityMeasurement"
+ "Humidity Sensor"
+
+
+ "humidity_a"
+ "number"
+ "Humidity Activation Level"
+
+
+ "humidity_d"
+ "number"
+ "Humidity Deactivation Level"
+
+
+ "fans"
+ "capability.switch"
+ "Vent Fans"
+
+
+ "emeters"
+ "capability.energyMeter"
+ "Energy Meters"
+
+
+ "price_kwh"
+ "decimal"
+ "Cost in cents per kWh (12 is US avg)"
+
+
+ "sendPushMessage"
+ "bool"
+ "Push notifications"
+
+
+ "phone"
+ "phone"
+ "Send text messages to"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/light-up-the-night.groovy
+ "lightSensor"
+ "capability.illuminanceMeasurement"
+
+
+
+ "lights"
+ "capability.switch"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/send-ham-bridge-command-when.groovy
+ "motion"
+ "capability.motionSensor"
+ "Motion Here"
+
+
+ "contact"
+ "capability.contactSensor"
+ "Contact Opens"
+
+
+ "contactClosed"
+ "capability.contactSensor"
+ "Contact Closes"
+
+
+ "acceleration"
+ "capability.accelerationSensor"
+ "Acceleration Detected"
+
+
+ "mySwitch"
+ "capability.switch"
+ "Switch Turned On"
+
+
+ "mySwitchOff"
+ "capability.switch"
+ "Switch Turned Off"
+
+
+ "arrivalPresence"
+ "capability.presenceSensor"
+ "Arrival Of"
+
+
+ "departurePresence"
+ "capability.presenceSensor"
+ "Departure Of"
+
+
+ "smoke"
+ "capability.smokeDetector"
+ "Smoke Detected"
+
+
+ "water"
+ "capability.waterSensor"
+ "Water Sensor Wet"
+
+
+ "HAMBcommand"
+ "text"
+ "Command to send"
+
+
+ "server"
+ "text"
+ "Server IP"
+ "Your HAM Bridger Server IP"
+
+ "port"
+ "number"
+ "Port"
+ "Port Number"
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/door-state-to-color-light-hue-bulb.groovy
+ "doorSensor"
+ "capability.doorControl"
+ "Select CoopBoss"
+
+
+ "bulbs"
+ "capability.colorControl"
+ "pick a bulb"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/habit-helper.groovy
+ "message1"
+ "text"
+ "What?"
+
+
+ "time1"
+ "time"
+ "When?"
+
+
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "phone1"
+ "phone"
+ "Phone number?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/it-moved.groovy
+ "accelerationSensor"
+ "capability.accelerationSensor"
+ "Where?"
+
+
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "phone1"
+ "phone"
+ "Phone number?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/lights-off-when-closed.groovy
+ "contact1"
+ "capability.contactSensor"
+ "Where?"
+
+
+ "switch1"
+ "capability.switch"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/coffee-after-shower.groovy
+ "bathroom"
+ "capability.relativeHumidityMeasurement"
+ "Which humidity sensor?"
+
+
+ "coffee"
+ "capability.switch"
+ "Which switch?"
+
+
+ "relHum"
+ "number"
+ "Humidity level?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/scheduled-mode-change.groovy
+ "time"
+ "time"
+ "Time of Day"
+
+
+ "newMode"
+ "mode"
+ "Mode?"
+
+
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "sendPushMessage"
+ "enum"
+ "Send a push notification?"
+
+
+ "phoneNumber"
+ "phone"
+ "Send a text message?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/thermostat-mode-director.groovy
+not regular input mode: input sensor
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/elder-care-daily-routine.groovy
+ "person1"
+ "text"
+ "Name?"
+
+
+ "motion1"
+ "capability.motionSensor"
+ "Where?"
+
+
+ "contact1"
+ "capability.contactSensor"
+
+
+
+ "time0"
+ "time"
+ "From what time?"
+
+
+ "time1"
+ "time"
+ "Until what time?"
+
+
+("recipients"
+ "contact"
+ "People to notify"
+ "Send notifications to"
+
+ "phone1"
+ "phone"
+ "Phone number?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/sunrise-sunset.groovy
+ "sunriseMode"
+ "mode"
+ "Change mode to?"
+
+
+ "sunriseOn"
+ "capability.switch"
+ "Turn on?"
+
+
+ "sunriseOff"
+ "capability.switch"
+ "Turn off?"
+
+
+ "sunsetMode"
+ "mode"
+ "Change mode to?"
+
+
+ "sunsetOn"
+ "capability.switch"
+ "Turn on?"
+
+
+ "sunsetOff"
+ "capability.switch"
+ "Turn off?"
+
+
+ "sunriseOffsetValue"
+ "text"
+ "HH:MM"
+
+
+ "sunriseOffsetDir"
+ "enum"
+ "Before or After"
+
+
+ "sunsetOffsetValue"
+ "text"
+ "HH:MM"
+
+
+ "sunsetOffsetDir"
+ "enum"
+ "Before or After"
+
+
+ "zipCode"
+ "text"
+
+
+
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "sendPushMessage"
+ "enum"
+ "Send a push notification?"
+
+
+ "phoneNumber"
+ "phone"
+ "Send a text message?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/virtual-thermostat.groovy
+ "sensor"
+ "capability.temperatureMeasurement"
+ "Sensor"
+
+
+ "outlets"
+ "capability.switch"
+ "Outlets"
+
+
+ "setpoint"
+ "decimal"
+ "Set Temp"
+
+
+ "motion"
+ "capability.motionSensor"
+ "Motion"
+
+
+ "minutes"
+ "number"
+ "Minutes"
+
+
+ "emergencySetpoint"
+ "decimal"
+ "Emer Temp"
+
+
+ "mode"
+ "enum"
+ "Heating or cooling?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/the-gun-case-moved.groovy
+ "accelerationSensor"
+ "capability.accelerationSensor"
+ "Where?"
+
+
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "phone1"
+ "phone"
+ "Phone number?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/big-turn-off.groovy
+ "switches"
+ "capability.switch"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/tesla-connect.groovy
+ "username"
+ "text"
+ "Username"
+
+
+ "password"
+ "password"
+ "Password"
+
+
+ "selectedCars"
+ "enum"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/brighten-my-path.groovy
+ "motion1"
+ "capability.motionSensor"
+ "Where?"
+
+
+ "switch1"
+ "capability.switch"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/keep-me-cozy.groovy
+ "thermostat"
+ "capability.thermostat"
+
+
+
+ "heatingSetpoint"
+ "number"
+ "Degrees?"
+
+
+ "coolingSetpoint"
+ "number"
+ "Degrees?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/smartblock-linker.groovy
+not regular input mode: input(
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/text-me-when-it-opens.groovy
+ "contact1"
+ "capability.contactSensor"
+ "Where?"
+
+
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "phone1"
+ "phone"
+ "Phone number?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/keep-me-cozy-ii.groovy
+ "thermostat"
+ "capability.thermostat"
+
+
+
+ "heatingSetpoint"
+ "decimal"
+ "Degrees"
+
+
+ "coolingSetpoint"
+ "decimal"
+ "Degrees"
+
+
+ "sensor"
+ "capability.temperatureMeasurement"
+ "Temp Sensors"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/smartblock-manager.groovy
+ "explanation1"
+ "paragraph"
+ "Every time you place a SmartBlock in Minecraft, a new SmartThings Device will be created. These Devices can be used in various SmartApps like \"
+ "", type: "
+
+ "explanation2"
+ "paragraph"
+ "In order for SmartThings to send commands back to your Minecraft SmartBlocks, you will have to enter your Server Address via the SmartThings iOS or Android app"
+ "", type: "
+
+not regular input mode: input(
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/presence-change-text.groovy
+ "presence"
+ "capability.presenceSensor"
+ "Which sensor?"
+
+
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "phone1"
+ "phone"
+ "Phone number?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/left-it-open.groovy
+ "contact"
+ "capability.contactSensor"
+
+
+
+ "openThreshold"
+ "number"
+
+ "Number of minutes"
+
+ "frequency"
+ "number"
+ "Number of minutes"
+
+
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "phone"
+ "phone"
+ "Phone number (optional)"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/turn-on-only-if-i-arrive-after-sunset.groovy
+ "presence1"
+ "capability.presenceSensor"
+ "Who?"
+
+
+ "switch1"
+ "capability.switch"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/sonos-remote-control.groovy
+ "buttonDevice"
+ "capability.button"
+ "Minimote"
+
+
+ "sonos"
+ "capability.musicPlayer"
+ "Sonos"
+
+
+ "volumeOffset"
+ "number"
+ "Adjust Volume by this amount"
+ "optional - 5% default"
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/routine-director.groovy
+ "falseAlarmThreshold"
+ "decimal"
+ "Number of minutes"
+
+
+ "zip"
+ "text"
+
+
+
+ "sendPushMessage"
+ "bool"
+ "Send notifications when house is empty?"
+
+
+ "sendPushMessageHome"
+ "bool"
+ "Send notifications when home is occupied?"
+
+
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "phone"
+ "phone"
+ "Send an SMS to this number?"
+
+
+ "days"
+ "enum"
+ "Only on certain days of the week"
+
+
+ "modes"
+ "mode"
+ "Only when mode is"
+
+
+ "people"
+ "capability.presenceSensor"
+ "Monitor These Presences"
+
+
+ "awayDay"
+ "enum"
+ "Everyone Is Away And It's Day"
+
+
+ "awayNight"
+ "enum"
+ "Everyone Is Away And It's Night"
+
+
+ "homeDay"
+ "enum"
+ "At Least One Person Is Home And It's Day"
+
+
+ "homeNight"
+ "enum"
+ "At Least One Person Is Home And It's Night"
+
+
+ "homeModeDay"
+ "mode"
+ "Select Mode Used for 'Home Day'"
+
+
+ "homeModeNight"
+ "mode"
+ "Select Mode Used for 'Home Night'"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/weather-windows.groovy
+ "minTemp"
+ "number"
+ "Minimum temperature"
+
+
+ "maxTemp"
+ "number"
+ "Maximum temperature"
+
+
+ "sensors"
+ "capability.contactSensor"
+
+
+
+ "inTemp"
+ "capability.temperatureMeasurement"
+ "Indoor"
+
+
+ "outTemp"
+ "capability.temperatureMeasurement"
+ "Outdoor (optional)"
+
+
+ "zipCode"
+ "text"
+ "Zip code"
+
+
+ "sendPushMessage"
+ "enum"
+ "Send a push notification?"
+
+
+ "retryPeriod"
+ "number"
+ "Minutes between notifications:"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/bose-soundtouch-control.groovy
+ "starting"
+ "time"
+ "Starting"
+
+
+ "ending"
+ "time"
+ "Ending"
+
+
+ "actionType"
+ "enum"
+ "Action?"
+
+
+ "bose"
+ "capability.musicPlayer"
+ "Bose® SoundTouch® music player"
+
+
+ "volume"
+ "number"
+ "Set the volume volume"
+ "0-100%"
+
+ "frequency"
+ "decimal"
+ "Minimum time between actions (defaults to every event)"
+ "Minutes"
+
+ "days"
+ "enum"
+ "Only on certain days of the week"
+
+
+ "modes"
+ "mode"
+ "Only when mode is"
+
+
+ "oncePerDay"
+ "bool"
+ "Only once per day"
+
+
+not regular input mode: input(options, name, capability)
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/lights-off-with-no-motion-and-presence.groovy
+ "switches"
+ "capability.switch"
+ "Choose light switches"
+
+
+ "motionSensor"
+ "capability.motionSensor"
+ "Choose motion sensor"
+
+
+ "presenceSensors"
+ "capability.presenceSensor"
+ "Choose presence sensors"
+
+
+ "delayMins"
+ "number"
+ "Minutes of inactivity?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/quirky-connect.groovy
+ "devices"
+ "enum"
+ "Select Device(s)"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/hall-light-welcome-home.groovy
+ "people"
+ "capability.presenceSensor"
+
+
+
+ "sensors"
+ "capability.contactSensor"
+
+
+
+ "lights"
+ "capability.switch"
+ "Switch Turned On"
+
+
+ "presenceDelay"
+ "number"
+ "How Long?"
+
+
+ "contactDelay"
+ "number"
+ "How Long?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/photo-burst-when.groovy
+ "motion"
+ "capability.motionSensor"
+ "Motion Here"
+
+
+ "contact"
+ "capability.contactSensor"
+ "Contact Opens"
+
+
+ "acceleration"
+ "capability.accelerationSensor"
+ "Acceleration Detected"
+
+
+ "mySwitch"
+ "capability.switch"
+ "Switch Turned On"
+
+
+ "arrivalPresence"
+ "capability.presenceSensor"
+ "Arrival Of"
+
+
+ "departurePresence"
+ "capability.presenceSensor"
+ "Departure Of"
+
+
+ "camera"
+ "capability.imageCapture"
+
+
+
+ "burstCount"
+ "number"
+ "How many? (default 5)"
+
+
+ "messageText"
+ "text"
+ "Message Text"
+
+
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "phone"
+ "phone"
+ "Phone Number"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/nobody-home.groovy
+ "people"
+ "capability.presenceSensor"
+
+
+
+ "newAwayMode"
+ "mode"
+ "Everyone is away"
+
+
+ "newSunsetMode"
+ "mode"
+ "At least one person home and nightfall"
+
+
+ "newSunriseMode"
+ "mode"
+ "At least one person home and sunrise"
+
+
+ "awayThreshold"
+ "decimal"
+ "Number of minutes"
+
+
+ "sendPushMessage"
+ "enum"
+ "Send a push notification?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/once-a-day.groovy
+ "switches"
+ "capability.switch"
+
+
+
+ "startTime"
+ "time"
+ "Turn On Time?"
+
+
+ "stopTime"
+ "time"
+ "Turn Off Time?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/initial-state-event-streamer.groovy
+ "accelerometers"
+ "capability.accelerationSensor"
+ "Accelerometers"
+
+
+ "alarms"
+ "capability.alarm"
+ "Alarms"
+
+
+ "batteries"
+ "capability.battery"
+ "Batteries"
+
+
+ "beacons"
+ "capability.beacon"
+ "Beacons"
+
+
+ "cos"
+ "capability.carbonMonoxideDetector"
+ "Carbon  Monoxide Detectors"
+
+
+ "colors"
+ "capability.colorControl"
+ "Color Controllers"
+
+
+ "contacts"
+ "capability.contactSensor"
+ "Contact Sensors"
+
+
+ "doorsControllers"
+ "capability.doorControl"
+ "Door Controllers"
+
+
+ "energyMeters"
+ "capability.energyMeter"
+ "Energy Meters"
+
+
+ "illuminances"
+ "capability.illuminanceMeasurement"
+ "Illuminance Meters"
+
+
+ "locks"
+ "capability.lock"
+ "Locks"
+
+
+ "motions"
+ "capability.motionSensor"
+ "Motion Sensors"
+
+
+ "musicPlayers"
+ "capability.musicPlayer"
+ "Music Players"
+
+
+ "powerMeters"
+ "capability.powerMeter"
+ "Power Meters"
+
+
+ "presences"
+ "capability.presenceSensor"
+ "Presence Sensors"
+
+
+ "humidities"
+ "capability.relativeHumidityMeasurement"
+ "Humidity Meters"
+
+
+ "relaySwitches"
+ "capability.relaySwitch"
+ "Relay Switches"
+
+
+ "sleepSensors"
+ "capability.sleepSensor"
+ "Sleep Sensors"
+
+
+ "smokeDetectors"
+ "capability.smokeDetector"
+ "Smoke Detectors"
+
+
+ "peds"
+ "capability.stepSensor"
+ "Pedometers"
+
+
+ "switches"
+ "capability.switch"
+ "Switches"
+
+
+ "switchLevels"
+ "capability.switchLevel"
+ "Switch Levels"
+
+
+ "temperatures"
+ "capability.temperatureMeasurement"
+ "Temperature Sensors"
+
+
+ "thermostats"
+ "capability.thermostat"
+ "Thermostats"
+
+
+ "valves"
+ "capability.valve"
+ "Valves"
+
+
+ "waterSensors"
+ "capability.waterSensor"
+ "Water Sensors"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/ecobee-connect.groovy
+ "thermostats"
+ "enum"
+"Select Your Thermostats"
+ "Tap to choose"
+
+ "ecobeesensors"
+ "enum"
+ "Select Ecobee Sensors ({{numFound}} found)"
+ "Tap to choose"
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/vinli-home-connect.groovy
+ "switches"
+ "capability.switch"
+
+
+
+ "locks"
+ "capability.lock"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/carpool-notifier.groovy
+ "driver"
+ "capability.presenceSensor"
+ "When this person arrives"
+ "Who's driving?"
+
+("recipients"
+ "contact"
+ "Notify"
+ "Send notifications to"
+
+ "phoneNumber"
+ "phone"
+ "Send a text to"
+ "Phone number"
+
+ "message"
+ "text"
+ "With the message:"
+ "Your ride is here!"
+
+ "rider"
+ "capability.presenceSensor"
+ "But only when this person is not with you"
+ "Who are you picking up?"
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/safe-watch.groovy
+ "contact"
+ "capability.contactSensor"
+ "Contact Sensor"
+
+
+ "motion"
+ "capability.motionSensor"
+ "Motion Sensor"
+
+
+ "knock"
+ "capability.accelerationSensor"
+ "Knock Sensor"
+
+
+ "axis"
+ "capability.threeAxis"
+ "Three-Axis Sensor"
+
+
+ "temp"
+ "capability.temperatureMeasurement"
+ "Temperature Sensor"
+
+
+ "maxTemp"
+ "number"
+ "Max Temperature (°${location.temperatureScale})"
+
+
+ "minTemp"
+ "number"
+ "Min Temperature (°${location.temperatureScale})"
+
+
+ "people"
+ "capability.presenceSensor"
+
+
+
+ "sendPushMessage"
+ "enum"
+ "Send a push notification?"
+
+
+ "phone"
+ "phone"
+ "Send a Text Message?"
+
+
+ "messageDelay"
+ "number"
+ "Minutes (default to every message)"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/mood-cube.groovy
+ "cube"
+ "capability.threeAxis"
+ "SmartSense Multi sensor"
+
+
+ "lights"
+ "capability.switch"
+ "Lights, switches & dimmers"
+
+
+ "sceneName${sceneId}"
+ "text"
+ "Scene Name"
+
+
+ "onoff_${sceneId}_${light.id}"
+ "boolean"
+
+
+
+ "level_${sceneId}_${light.id}"
+ "enum"
+
+
+
+ "color_${sceneId}_${light.id}"
+ "text"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/gideon.groovy
+ "switches"
+ "capability.switch"
+
+
+
+ "motions"
+ "capability.motionSensor"
+
+
+
+ "presence_sensors"
+ "capability.presenceSensor"
+
+
+
+ "outlets"
+ "capability.switch"
+
+
+
+ "locks"
+ "capability.lock"
+
+
+
+ "temperature_sensors"
+ "capability.temperatureMeasurement"
+
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/door-jammed-notification.groovy
+ "doorSensor"
+ "capability.doorControl"
+ "Select CoopBoss"
+
+
+("recipients"
+ "contact"
+ "Recipients"
+ "Send notifications to"
+
+ "phone"
+ "phone"
+ "Phone number?"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/step-notifier.groovy
+ "starting"
+ "time"
+ "Starting"
+
+
+ "ending"
+ "time"
+ "Ending"
+
+
+ "jawbone"
+ "device.jawboneUser"
+ "Jawbone UP"
+
+
+ "thresholdType"
+ "enum"
+ "Select When to Notify"
+
+
+ "threshold"
+ "number"
+ "Enter Step Threshold"
+ "Number"
+
+("recipients"
+ "contact"
+ "Send notifications to"
+
+
+ "phone"
+ "phone"
+ "Phone Number (for SMS, optional)"
+
+
+ "notificationType"
+ "enum"
+ "Select Notification"
+
+
+ "lights"
+ "capability.switch"
+ "Which Lights?"
+
+
+ "flashCount"
+ "number"
+ "How Many Times?"
+
+
+ "hues"
+ "capability.colorControl"
+ "Which Hue Bulbs?"
+
+
+ "color"
+ "enum"
+ "Hue Color?"
+
+
+ "lightLevel"
+ "enum"
+ "Light Level?"
+
+
+ "duration"
+ "number"
+ "Duration in Seconds?"
+
+
+ "sonos"
+ "capability.musicPlayer"
+ "On this Sonos player"
+
+
+ "song"
+,"enum"
+"Play this track or radio station"
+
+
+ "resumePlaying"
+ "bool"
+ "Resume currently playing music after notification"
+
+
+ "volume"
+ "number"
+ "Temporarily change volume"
+ "0-100%"
+
+ "songDuration"
+ "number"
+ "Play for this many seconds"
+ "0-100%"
+
+ "song"
+,"enum"
+"Play this track"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/smart-windows.groovy
+ "minTemp"
+ "number"
+ "Minimum temperature"
+
+
+ "maxTemp"
+ "number"
+ "Maximum temperature"
+
+
+ "sensors"
+ "capability.contactSensor"
+
+
+
+ "inTemp"
+ "capability.temperatureMeasurement"
+ "Indoor"
+
+
+ "outTemp"
+ "capability.temperatureMeasurement"
+ "Outdoor (optional)"
+
+
+ "sendPushMessage"
+ "enum"
+ "Send a push notification?"
+
+
+ "retryPeriod"
+ "number"
+ "Minutes between notifications:"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/vacation-lighting-director.groovy
+not regular input mode: input newMode
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/medicine-management-temp-motion.groovy
+ "deviceAccelerationSensor"
+ "capability.accelerationSensor"
+ "Movement"
+
+
+ "deviceTemperatureMeasurement"
+ "capability.temperatureMeasurement"
+ "Temperature"
+
+
+ "tempThreshold"
+ "number"
+ "Temperature Threshold"
+
+
+ "reminderTime"
+ "time"
+ "Time"
+
+
+ "deviceLight"
+ "capability.colorControl"
+ "Smart light"
+
+
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/jawbone-up-connect.groovy
+found NONE
+/Users/Zyciac/Coding/NSEC-IoT/smartThings/smartThings-SainT/smartThings-SainT-official/yoics-connect.groovy
+ "cameras"
+ "enum"
+"", type: "
+
+
+ "switches"
+ "capability.switch"
+
+
+
