@@ -1,0 +1,3 @@
+C:\Users\Yichi\Desktop\NSEC-IoT\smartThings\smartThings-SainT\smartThings-SainT-official\alfred-workflow.groovy==This SmartApp allows you to interact with the things in your physical graph through Alfred. #AMBIGUITY：没有具体设备类别
+When the humidity reaches a specified level, activate one or more vent fans until the humidity is reduced to a specified level. #MISSING INFORMATION: PHONE, ENERGYMETER
+C:\Users\Yichi\Desktop\NSEC-IoT\smartThings\smartThings-SainT\smartThings-SainT-official\beacon-control.groovy==Execute a Hello, Home phrase, turn on or off some lights, and/or lock or unlock your door when you enter or leave a monitored region #MISSING INFORMATION: PHONE

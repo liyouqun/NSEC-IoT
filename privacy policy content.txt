@@ -1,0 +1,7 @@
+What
+sensor information
+user input
+
+How
+1. 使用什么sensor information控制了哪些device
+2. 
