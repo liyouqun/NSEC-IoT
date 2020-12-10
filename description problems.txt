@@ -1,3 +1,24 @@
+所有的应用都没有说数据存储问题，
+if (!atomicState.lastValue) {
+    	atomicState.lastValue = meterValue
+    }
 C:\Users\Yichi\Desktop\NSEC-IoT\smartThings\smartThings-SainT\smartThings-SainT-official\alfred-workflow.groovy==This SmartApp allows you to interact with the things in your physical graph through Alfred. #AMBIGUITY：没有具体设备类别
-When the humidity reaches a specified level, activate one or more vent fans until the humidity is reduced to a specified level. #MISSING INFORMATION: PHONE, ENERGYMETER
+C:\Users\Yichi\Desktop\NSEC-IoT\smartThings\smartThings-SainT\smartThings-SainT-official\auto-humidity-vent.groovy==When the humidity reaches a specified level, activate one or more vent fans until the humidity is reduced to a specified level. #MISSING INFORMATION: PHONE, ENERGYMETER
 C:\Users\Yichi\Desktop\NSEC-IoT\smartThings\smartThings-SainT\smartThings-SainT-official\beacon-control.groovy==Execute a Hello, Home phrase, turn on or off some lights, and/or lock or unlock your door when you enter or leave a monitored region #MISSING INFORMATION: PHONE
+C:\Users\Yichi\Desktop\NSEC-IoT\smartThings\smartThings-SainT\smartThings-SainT-official\bon-voyage.groovy==Monitors a set of SmartSense Presence tags or smartphones and triggers a mode change when everyone has left.  Used in conjunction with Big Turn Off or Make It So to turn off lights, appliances, adjust the thermostat, turn on security apps, and more. #MISSING INFORMATION: Phone
+C:\Users\Yichi\Desktop\NSEC-IoT\smartThings\smartThings-SainT\smartThings-SainT-official\bose-soundtouch-connect.groovy==Control your Bose SoundTouch speakers #MISSING INFORMATION: Lan search result, All child devices connected to hub, allow third party: Bose to control device
+C:\Users\Yichi\Desktop\NSEC-IoT\smartThings\smartThings-SainT\smartThings-SainT-official\bose-soundtouch-control.groovy==Control your Bose® SoundTouch® when certain actions take place in your home. #AMBIGUITY：没有具体设备类别
+C:\Users\Yichi\Desktop\NSEC-IoT\smartThings\smartThings-SainT\smartThings-SainT-official\bright-when-dark-and-or-bright-after-sunset.groovy==Turn ON light(s) and/or dimmer(s) when there's movement and the room is dark with illuminance threshold and/or between sunset and sunrise. Then turn OFF after X minute(s) when the brightness of the room is above the illuminance threshold or turn OFF after X minute(s) when there is no movement. #MISSING INFORMATION: ZIP CODE, user preference: operating day
+C:\Users\Yichi\Desktop\NSEC-IoT\smartThings\smartThings-SainT\smartThings-SainT-official\button-controller.groovy==Control devices with buttons like the Aeon Labs Minimote #AMBIGUITY: 没有具体设备类别, #MISSING INFORMATION: Operating Time Slot, Phone,
+C:\Users\Yichi\Desktop\NSEC-IoT\smartThings\smartThings-SainT\smartThings-SainT-official\device-tile-controller.groovy==A controller SmartApp to install virtual devices into your location in order to simulate various native Device Tiles. #MISSING INFORMATION: getChildDevices
+C:\Users\Yichi\Desktop\NSEC-IoT\smartThings\smartThings-SainT\smartThings-SainT-official\door-knocker.groovy==Alert if door is knocked, but not opened. # MISSING INFORMATION: Phone
+C:\Users\Yichi\Desktop\NSEC-IoT\smartThings\smartThings-SainT\smartThings-SainT-official\ecobee-connect.groovy==Connect your Ecobee thermostat to SmartThings. # MISSING INFORMATION: 3rd party Credential Information
+C:\Users\Yichi\Desktop\NSEC-IoT\smartThings\smartThings-SainT\smartThings-SainT-official\elder-care-slip-fall.groovy==Monitors motion sensors in bedroom and bathroom during the night and detects if occupant does not return from the bathroom after a specified period of time. # MISSING INFORMATION: Phone, location.contact
+
+
+
+
+
+
+
+
