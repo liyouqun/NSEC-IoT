@@ -2,6 +2,9 @@
 if (!atomicState.lastValue) {
     	atomicState.lastValue = meterValue
     }
+
+title里明确了optional的不算
+
 C:\Users\Yichi\Desktop\NSEC-IoT\smartThings\smartThings-SainT\smartThings-SainT-official\alfred-workflow.groovy==This SmartApp allows you to interact with the things in your physical graph through Alfred. #AMBIGUITY：没有具体设备类别
 C:\Users\Yichi\Desktop\NSEC-IoT\smartThings\smartThings-SainT\smartThings-SainT-official\auto-humidity-vent.groovy==When the humidity reaches a specified level, activate one or more vent fans until the humidity is reduced to a specified level. #MISSING INFORMATION: PHONE, ENERGYMETER
 C:\Users\Yichi\Desktop\NSEC-IoT\smartThings\smartThings-SainT\smartThings-SainT-official\beacon-control.groovy==Execute a Hello, Home phrase, turn on or off some lights, and/or lock or unlock your door when you enter or leave a monitored region #MISSING INFORMATION: PHONE
@@ -13,12 +16,11 @@ C:\Users\Yichi\Desktop\NSEC-IoT\smartThings\smartThings-SainT\smartThings-SainT-
 C:\Users\Yichi\Desktop\NSEC-IoT\smartThings\smartThings-SainT\smartThings-SainT-official\device-tile-controller.groovy==A controller SmartApp to install virtual devices into your location in order to simulate various native Device Tiles. #MISSING INFORMATION: getChildDevices
 C:\Users\Yichi\Desktop\NSEC-IoT\smartThings\smartThings-SainT\smartThings-SainT-official\door-knocker.groovy==Alert if door is knocked, but not opened. # MISSING INFORMATION: Phone
 C:\Users\Yichi\Desktop\NSEC-IoT\smartThings\smartThings-SainT\smartThings-SainT-official\ecobee-connect.groovy==Connect your Ecobee thermostat to SmartThings. # MISSING INFORMATION: 3rd party Credential Information
-C:\Users\Yichi\Desktop\NSEC-IoT\smartThings\smartThings-SainT\smartThings-SainT-official\elder-care-slip-fall.groovy==Monitors motion sensors in bedroom and bathroom during the night and detects if occupant does not return from the bathroom after a specified period of time. # MISSING INFORMATION: Phone, location.contact
+C:\Users\Yichi\Desktop\NSEC-IoT\smartThings\smartThings-SainT\smartThings-SainT-official\elder-care-slip-fall.groovy==Monitors motion sensors in bedroom and bathroom during the night and detects if occupant does not return from the bathroom after a specified period of time. # MISSING INFORMATION: Phone, contact
+C:\Users\Yichi\Desktop\NSEC-IoT\smartThings\smartThings-SainT\smartThings-SainT-official\enhanced-auto-lock-door.groovy==Automatically locks a specific door after X minutes when closed  and unlocks it when open after X seconds. # MISSING INFORMATION: Phone, contact
+C:\Users\Yichi\Desktop\NSEC-IoT\smartThings\smartThings-SainT\smartThings-SainT-official\flood-alert.groovy==Get a push notification or text message when water is detected where it doesn't belong. #MISSING INFORMATION: History event, time now
 
 
-
-
-
-
+foscam-connect.groovy==Connect and take pictures using your Foscam camera from inside the Smartthings app # MISSING INFORMATION: 3rd party Credential(明文显示)
 
 
