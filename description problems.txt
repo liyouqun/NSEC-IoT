@@ -21,6 +21,6 @@ C:\Users\Yichi\Desktop\NSEC-IoT\smartThings\smartThings-SainT\smartThings-SainT-
 C:\Users\Yichi\Desktop\NSEC-IoT\smartThings\smartThings-SainT\smartThings-SainT-official\flood-alert.groovy==Get a push notification or text message when water is detected where it doesn't belong. #MISSING INFORMATION: History event, time now
 
 
-foscam-connect.groovy==Connect and take pictures using your Foscam camera from inside the Smartthings app # MISSING INFORMATION: 3rd party Credential(明文显示)
+C:\Users\Yichi\Desktop\NSEC-IoT\smartThings\smartThings-SainT\smartThings-SainT-official\foscam-connect.groovy==Connect and take pictures using your Foscam camera from inside the Smartthings app # MISSING INFORMATION: 3rd party Credential(明文显示)
 
 
