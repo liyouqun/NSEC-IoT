@@ -1,0 +1,1117 @@
+installed
+updated
+list switches
+show switch
+list locks
+show lock
+validate command
+get capability name
+get device capability commands
+execute command
+uninstalled
+initialize
+handle things
+set fans
+main page
+beacon handler
+changed location mode
+app touch
+presence
+take action
+get device type
+get usn qualifier
+get device name
+get name space
+device discovery
+add device
+resolve dni address
+bose zone join
+bose zone reset
+bose zone has master
+bose zone leave
+get parsers
+on location
+parsessdp
+get verified devices
+get devices
+subscribe to events
+event handler
+mode change handler
+scheduled time handler
+app touch handler
+configurations
+options
+location position change
+sunrise sunset time handler
+motion handler
+lights handler
+dimmers handler
+illuminance handler
+turn on lights
+turn on dimmers
+turn off lights
+turn off dimmers
+astro check
+contact open handler
+motion active handler
+select button
+configure button
+get button sections
+configured
+button configured
+button event
+execute handlers
+find
+find msg
+toggle
+change mode
+turn on camera
+turn off camera
+turn off
+turn on
+rider is home
+send text
+water handler
+coffee maker
+init
+on off handler
+color handler
+get random color master
+temp handler
+index
+motion active
+motion inactive
+not present
+all quiet
+any here
+outlets on
+outlets off
+scheduled turn off
+motion inactive handler
+default page
+initialize devices
+label map
+coop door state handler
+door closed
+door knock
+handle event
+switch handler
+auth page
+oauth init url
+callback
+success
+fail
+connection status
+get ecobee thermostats
+get thermostat display name
+get thermostat type name
+poll handler
+poll children
+poll child
+available modes
+current mode
+update sensor data
+get child device ids string
+to json
+to query string
+get child name
+get sensor child name
+get server url
+get shard url
+get callback url
+get build redirect url
+get api endpoint
+get smart things client id
+debug event
+send push and feeds
+send activity feeds
+convert fto c 
+schedule check
+bedroom active
+bathroom active
+send message
+meter handler
+lock door
+unlock door
+door handler
+first page
+input page
+input boolean page
+input icon page
+input image page
+options group
+add values
+list to map
+add group
+input selection page
+input text page
+input time page
+input device page
+input capability page
+input room page
+input mode page
+input hub page
+input contact book page
+app page
+label page
+mode page
+paragraph page
+href page
+buttons page
+image page
+video page
+flattened page
+foo
+water wet handler
+trigger alarm
+fire alarm
+camera discovery
+login to foscam
+cameras discovered
+get cameras
+add cameras
+get device info
+location handler
+acceleration handler
+send text message
+update sms history
+clear sms history
+clear status
+on command
+root page
+unsupported devices page
+controller explanation page
+numbers page
+default start
+default end
+start level label
+end level label
+weekdays
+weekends
+scheduling page
+completion page
+app handler
+stop dimmers handler
+scheduled start
+send start event
+send stop event
+send time remaining event
+send controller event
+get controller
+update dimmers
+speak
+resume playing
+set levels in state
+can start automatically
+completion percentage
+time remaining
+jump to
+get hue
+get up hue
+get down hue
+fancy string
+fancy device string
+device label
+scheduling href description
+completion href description
+numbers page href description
+hue sat to hex
+hsl to rgb
+rgb to hex
+uses old settings
+has start level
+has end level
+get all devices
+set cool temp
+set heat temp
+set fan mode
+set thermostat mode
+get thermostat status
+turn on light
+turn off light
+get light status
+set color
+get color status
+set kelvin
+get kelvin status
+get level status
+set level status
+get contact status
+get smoke status
+get garage status
+open garage
+close garage
+get shade status
+open shade
+preset shade
+close shade
+get water sensor status
+get battery status
+get door lock status
+lock door lock
+unlock door lock
+get presence status
+get motion status
+get outlet status
+get meter status
+turn on outlet
+turn off outlet
+get switch status
+turn on switch
+turn off switch
+get temp sensors status
+outlet handler
+update door lock
+update outlet
+update switch
+hello actions
+execute action
+structure info
+acquiredata
+create subscriptions
+switch off handler
+switch on handler
+lights out
+door opened
+page with ip
+registration handler
+bridge discovery
+bridge discovery failed
+bridge linking
+bulb discovery
+get hue bridges
+get verified hue bridges
+manual refresh
+add bulbs
+add bridge
+ssdp bridge handler
+do device sync
+is valid source
+is in bulb discovery
+parse
+update handler
+hub verification
+on
+off
+set level
+set saturation
+set hue
+set color temperature
+convert bulb list to map
+hex to hsv
+hsv to hex
+humidity handler
+list
+list states
+list subscriptions
+update
+show
+add subscription
+remove subscription
+device handler
+get access key
+get bucket key
+set bucket key
+set access key
+try create bucket
+generic handler
+try ship events
+acceleration active handler
+temperature handler
+sendit
+build redirect url
+receive token
+received token
+validate current token
+setup
+response goals
+response moves
+set color 
+hook event handler
+check server
+cooling setpoint handler
+heating setpoint handler 
+heating setpoint handler
+event
+acceleration inactive handler
+check running
+subscribe
+door open
+door open too long
+contact handler
+get credentials page
+get credentials error page
+test life connection
+initialize life connection
+list circles 
+list places
+list users 
+create circle subscription
+generate initial event 
+haversine
+place event handler
+apiurl
+get secret key
+get client id
+oauth init
+oauth callback
+oauth receive token
+oauth success
+oauth failure
+oauth received token
+oauth connection status
+log response
+log errors
+apiget
+apiput
+devices list
+devices in location
+update devices
+page setup
+page setup scenario a
+page setup scenario b
+page setup scenario c
+page setup scenario d
+on event a
+delay turn off a
+on press a
+on event b
+delay turn off b
+on press b
+on event c
+delay turn off c
+on press c
+on event d
+delay turn off d
+on press d
+mid night reset
+grey out
+greyed out time
+get title
+get desc
+get midnight
+get time label
+contact closed handler
+presence handler
+is active presence
+set time callback
+door open check
+lock message
+get servercallback url
+get harmonydevices
+discovery
+activity
+activity response
+poll
+poll response
+get activity list
+get activity name
+get activity id
+get hub name
+send notification
+list devices
+get device
+update device
+list phrases
+execute phrase
+send to harmony
+list hubs
+get hub
+activity callback
+get harmony
+harmony
+delete harmony
+check open draw in past
+check open draw after reminder
+is opened
+set led notification
+reset led notification
+check motion in past
+check motion after reminder
+is moved
+get time window msec
+button handler
+scenes page
+scene page
+device page
+save states page
+position handler
+toggle switches
+refresh token
+get device list
+create child device
+api get
+c to pref
+rain to pref
+page two
+touch handler
+set sunrise
+set sunset
+change sun mode
+set away
+set timer
+reset hue
+start timer callback
+stop timer callback
+get inputs
+register all device subscriptions
+register device change
+unregister device change
+register device graph
+unregister device graph
+device event handler
+location event handler
+dock sensor
+check and update plant if needed
+moisture handler
+battery handler
+get device serial from event
+swap token
+parse api response
+subscriber identify verification
+update wink subscriptions
+create wink subscription
+delete wink subscription
+remove wink subscriptions
+build callback url
+api put
+c to f
+f to c
+dollarize
+create nimbus children
+cloud clock event handler
+poll nimbus
+get eggtray update
+run egg report
+eggtray event handler
+get piggy bank update
+piggy bank event handler
+get sensor pod update
+sensor pod event handler
+powerstrip event handler
+poll outlet
+create powerstrip children
+car presence
+garage door contact
+interior door closed
+acceleration active
+select routines
+check sun
+set home
+send away
+send home
+trigger contact
+trigger motion
+trigger knock
+trigger temp
+trigger axis
+send http
+schedule job
+check for severe weather
+description filter
+location is defined
+zipcode is valid
+hebcal  web request
+today = new  date
+locale = get weather feature
+timezone =  time zone.get time zone
+heb cal  get time
+return time  = hebcal title.split
+return time  = hebcal date.split
+set chag
+end chag
+handle devices with ids
+remove all subscriptions
+send to roomie
+agent discovery
+manual agent entry
+verify manual entry
+discover agents
+agents discovered
+get agents
+add or update agent
+geturn
+get uuid from usn
+string  convert hex to ip
+integer  convert hex to int
+string  convert to hex string
+string  convert ip to hex string
+boolean  can install labs
+boolean  has all hubs over
+list  get real hub firmware versions
+agent selection
+control
+select phrases
+jawbone handler
+page about
+page uninstall
+page status
+page history
+page select zones
+page configure zones
+page arming options
+page alarm options
+page notifications
+page remote options
+page rest api options
+on contact
+on motion
+on movement
+on smoke
+on water
+on button event
+arm away
+arm stay
+disarm
+panic
+reset
+exit delay expired
+api arm away
+api arm stay
+api disarm
+api panic
+api status
+activate alarm
+white list
+check access token
+request code
+set summary
+get initial data
+console log
+get html
+get encored push
+start process 
+start day
+inc day
+mid night
+sched desc
+create day array
+switch change
+set active and schedule
+turn off motion after delay
+motion
+intruder motion
+resident motion
+contact
+alarm
+check for re arm
+sound siren
+continue flashing
+weather check
+chat message to mc
+linker page
+update switch level
+update block level
+update switch state
+update block state
+get block id
+get linker description
+list page
+server page
+notifier page
+chat page
+create block
+ack
+update block
+send data to block
+delete block
+destroyed page
+redstone page
+neighbor block page
+message builder page
+smart phone notification section
+chat section
+message builder section
+message builder href
+chat closest player section
+page state complete
+smart block destroyed handler
+smart block neighbor changed handler
+redstone signal strength handler
+notify user of redstone change
+notify user of neighbor change
+notify user
+message description parts for page
+message parts set
+default message description
+message description for page
+message part default value
+message
+message builder options
+get message part from option
+get latest close player
+settings as ids
+convert block setting to block id
+all blocks parsed
+all blocks
+scheduled event
+choose track
+extract button number
+handle button
+toggle play pause
+adjust volume
+open valve
+close valve
+valve on handler
+set start time
+start page
+global page
+weather page
+zipcode page
+delay page
+zone page
+zone settings page
+zone set page
+plant set page
+sprinkler set page
+option set page
+set page
+install schedule
+write settings
+manual start
+busy off
+pre check
+cycle on
+cycle off
+check run map
+cycle loop
+write cycles
+resume
+sync on
+water stop
+sub off
+off pause check
+water start
+moisture
+note
+send it
+set season
+get rain today
+get dpw days
+create dpw map
+setup notifications
+goal handler
+step handler
+lights notification
+hue notification
+sonos notification
+sunrise handler
+sunset handler
+get pref
+page main
+page weather settings a
+page weather settings b
+page weather settings c
+page weather settings d
+alarm a
+alarm b
+alarm c
+alarm d
+get summary 
+get weather desc
+grey out option
+dimmer desc
+thermostat desc
+uninstall from child device
+setup bulbs
+get gateway data
+get token
+api post
+calculate current power use
+generate sha
+generatemd
+check devices online
+syncronize devices
+debug out
+poll room
+login to tesla
+select cars
+getcar list
+remove child from settings
+log handler
+on handler
+off handler
+dim handler
+sensor change
+restore
+director settings
+thermostatand doors
+thermostat boost
+settings
+mode boost change
+thermo shut off trigger
+thermo shut off
+door check
+greyed out
+greyed out therm
+greyed out settings
+thermo change
+window change
+list all
+list contact sensors
+show contact sensor
+add contact subscription
+remove contact sensor subscription
+list presence sensors
+show presence sensor
+add presence subscription
+remove presence sensor subscription
+add switch subscription
+remove switch subscription
+list motions
+show motion
+add motion subscription
+remove motion subscription
+add lock subscription
+remove lock subscription
+motion open handler
+current state
+show states
+list phrases with type
+setup
+time interval input
+list all devices
+get data from wattvision
+get data for child
+wattvisionurl
+get data
+child marshaller
+create device
+delete device
+set api access
+schedule data collection
+revoke api access
+login callback
+create child
+connection successful
+update current weather
+calculate dew point
+get app info
+get loc
+get current report
+set temperature
+push latest
+get or default
+send to weather bug
+devices discovered
+switches discovered
+motions discovered
+light switches discovered
+get wemo switches
+get wemo motions
+get wemo light switches
+resubscribe
+refresh
+refresh devices
+subscribe to devices
+add switches
+add motions
+add light switches
+ssdp switch handler
+ssdp motion handler
+ssdp light switch handler
+check things
+test
+authenticate
+exchange token from withings
+notification received
+st base url
+st token
+short url
+no token url
+attach params
+unix time
+backfill measures
+w get measures
+send measure events
+parse measure group
+parse measure
+measure value
+w notification base url
+w notification callback url
+w get notification
+w create notification
+w revoke all notifications
+w revoke notification
+w list notifications
+default oauth params
+fetch data from withings
+w log enabled
+request token url
+user authorization url
+exchange token url
+exchange token
+default parameter keys
+oauth consumer key
+oauth nonce
+nonce
+oauth signature method
+oauth timestamp
+oauth version
+oauth callback
+oauth token
+oauth token secret
+userid
+collect token from withings
+get consumer key
+get consumer secret
+get user id
+render action
+authorized html head
+authorized html body
+not authorized html head
+not authorized html body
+build oauth url with token
+load
+get measurement
+parse json
+measurement error
+save measurement
+event value
+withings event
+get withings device
+should poll
+get child namespace
+get scale child name
+get body analyzer child name
+get smart things consumer key
+get smart things consumer secret
+config actions
+check presence
+build url
+get server name
+list available cameras
+take picture
+foauth
+authorize
+zwave event
+configuration cmds
+configure
+status changed
+contact triggered
+motion triggered
+sensor triggered
+select alarm
+select sensors
+select states
+ha settings page
+other settings
+set presence
+arrived
+left
+handler
+flush buffer
+generateurl
+viewurl
+schedule turn on
+mode handler
+get ct bright
+getct
+get hex
+gethsv
+get bright
+ct to rgb
+rgb to hsv
+config app
+switch off
+alarm switch contact
+motion evt handler
+take actions
+select program
+ask alexa mq handler
+reschedule if needed
+display tips page
+get custom image path
+select modes
+climate list handler
+set climate now
+set climate
+is right day for change
+change fan min on time
+set heating setpoint
+clear heating setpoint
+actions settings
+thermostat mode handler
+door unlocked handler
+smoke handler
+carbon monoxide handler
+clear alert
+switch hit
+handle temperature event
+handle humidity event
+handle heating setpoint event
+handle cooling setpoint event
+handle thermostat mode event
+handle fan mode event
+handle humidifier mode event
+handle humidifier level event
+handle dehumidifier mode event
+handle dehumidifier level event
+handle ventilator mode event
+handle fan min on time event
+handle ventilator min on time event
+handle thermostat operating state event
+handle daily stats
+handle equipment status event
+handle program name event
+handle water event
+handle smoke event
+handle carbon monoxide event
+handle illuminance event
+handle lock event
+handle battery event
+handle contact event
+handle acceleration event
+handle motion event
+handle presence event
+handle switch event
+handle set level event
+handle power event
+handle energy event
+handle cost event
+process queue
+on light off
+on app touch
+change color
+start
+stop
+group discovery
+create group
+modify group
+remove group
+scene discovery
+create scene
+modify scene
+change scene name
+remove scene
+init complete
+default transition
+get hue bulbs
+get hue groups
+get hue scenes
+bulb list handler
+group list handler
+scene list handler
+add groups
+add scenes
+set transition time 
+set group scene
+set to group
+next level
+get id
+update scene from device
+update scene
+rename scene
+delete scene
+create new scene
+update group
+rename group
+delete group
+create new group
+get bridge dni
+get bridge hostname
+get bridge hostname and port
+convert group list to map
+convert scene list to map
+ip address from dni
+get selected transition
+set alert
+set effect
+is open
+handle app touch
+handle mode event
+soft poll
+log system properties
+post to influx db
+handle influx response
+disable integration
+enable integration
+copy config
+render config
+device command map
+authorized devices
+render devices
+device command
+auth error
+basic info
+configure bulbs
+all off
+select things
+tick
+webhook
+remove bulbs
+update grp
+get app version
+dashboard page
+sensor settings
+humidify settings
+dehumidify settings
+ventilator settings
+set humidity level
+get image path
+get app name
+temp sensor settings
+motion sensor settings
+threshold settings
+change mode handler
+set climate evt handler
+program heat evt handler
+program cool evt handler
+monitor adjust temp
+lock handler
+notify unlocked
+identify
+get clusters
+enroll response
+check door
+button push
+parse description as map
+update state
+set model
+tile set level
+set local level
+get group status
+play
+pause
+next track
+previous track
+seek
+mute
+unmute
+set play mode
+play text and resume
+play track and resume
+play text and restore
+play track and restore
+play text and track
+play sound and track
+play track at volume
+play track
+set track
+resume track
+restore track
+play text
+set text
+unsubscribe
+get volume
+get current media
+get current status
+get system string
+white
+set color hex
+cycle colors
+get current level
+striim light discovery
+getstriim light player
+get verifiedstriim light player
+scheduled refresh handler
+scheduled actions handler
+addstriim light
+select switches
+push
+hold
+release
+associate hub
+get data by name
+integer
+integerhex
